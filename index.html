@@ -12,30 +12,72 @@
   </head>
   <body>
 
+    <!-- NAVBAR -->
 
     <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-white">
         <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+            <span class="w-100 d-lg-none d-block"><!--hidden spacer to center brand on mobile--> </span>
             <div class="w-100 text-right">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
         </div>
+
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
             <ul class="navbar-nav ml-auto flex-nowrap">
-          
-    
                 <li class="nav-item">
-                    <a href="mailto:contact@susanneaubert.com" class="nav-link m-2 menu-item">Contact</a>
-                </li>
+                    <a class="nav-link" href="#">
+                      Home
+                    </a>
+                  </li>
+
+                 <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Work
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" target="_blank"href="https://www.susanneaubert.design/work">Featured</a>
+                  <a class="dropdown-item" target="_blank" href="https://www.behance.net/gallery/99353869/NOS-PLAY-Redesign-and-On-boarding">NOS Redesign and Onboarding</a>
+                  <a class="dropdown-item" target="_blank" href="https://medium.com/usabilitygeek/the-process-of-designing-a-website-for-a-caf%C3%A9-45b3afce3909">Tiffin Café Website</a>
+                  <a class="dropdown-item" target="_blank" href="https://medium.com/usabilitygeek/case-study-add-a-feature-for-netflix-72874c366c87">Netflix: A suggested new feature</a>
+                      <a class="dropdown-item" target="_blank" href="https://medium.com/usabilitygeek/case-study-adventure-camp-13b20db76885">Adventure Camp! An online mobile camp</a>
+                      <a class="dropdown-item" target="_blank" href="https://medium.com/@susanneaubert/skyscanner-usability-evaluation-and-app-redesign-28a0b7444e92">Skyscanner - Usability Evaluation and Redesign</a>
+                      <a class="dropdown-item" target="_blank" href="https://medium.com/@susanneaubert/case-study-bora-a-fun-task-manager-ebd61420a493">Bora! - A fun task manager</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  UX Articles
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" target="_blank" href="https://medium.com/usabilitygeek/the-process-of-designing-a-website-for-a-caf%C3%A9-45b3afce3909">Website for vegeterian café</a>
+                  <a class="dropdown-item" target="_blank" href="https://medium.com/usabilitygeek/case-study-adventure-camp-13b20db76885">Adventure Camp App Design</a>
+                  <a class="dropdown-item" target="_blank" href="https://medium.com/usabilitygeek/case-study-e-commerce-for-small-local-business-caf18e32b1b8">E-commerce Website for small business</a>
+                  <a class="dropdown-item" target="_blank" href="https://medium.com/usabilitygeek/case-study-add-a-feature-for-netflix-72874c366c87">Adding a feature to Netflix</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contact
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="mailto:contact@susanneaubert.com">E-mail</a>
+                  <a class="dropdown-item" href="https://www.linkedin.com/in/susanne-aubert">LinkedIn</a>
+                  
+                </div>
+              </li>
             </ul>
+            
         </div>
     </nav>
 
 
 
-   <!-- 
+<!--
+  
     <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-white" >
         <a class="navbar-brand" href="#">Susanne</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,14 +107,15 @@
         </div>
       </nav>
 
-      -->
+    -->
+  
 
 
 
         <div class="jumbotron">
             <h1 class="display-2">Hi, I'm Susanne</h1>  
-            <h1 class="display-4">I'm a UX/UI Designer</h1>
-            <h1 class="display-4">based in Lisbon</h1> <!--
+            <h1 class="display-4 d-none d-md-block">I'm a UX/UI Designer</h1>
+            <h1 class="display-4 d-none d-md-block">based in Lisbon</h1> <!--
             <a class="btn btn-outline-secondary btn-md" href="#" role="button"> Let's talk </a>
 -->
         </div>
@@ -105,162 +148,47 @@
 
 
           <p class="work">F E A T U R E D </p>
+
+          <div class="featured"> 
+
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
+                <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/32e98c99353869.5ef60527ef90e.png" alt="Card image cap">
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">NOS Play Redesign and Onboarding</h5>
+                    <p class="card-text">Redesign of NOS Play for desktop and mobile to increase client engagement</p>
+                    </div>
+                </div>
+                </div>
+
+            <div class="col-sm-4">
             <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/39952e99536363.5ef60417583e9.png" alt="Card image cap">
             <div class="card">
                 <div class="card-body">
                 <h5 class="card-title">DictonWize for mobile</h5>
                 <p class="card-text">A different dictionary for mobile. It features fun vintage images with sassy comments</p>
-                <a href="#" class="btn btn-black">more...</a>
                 </div>
             </div>
             </div>
 
-            <div class="col-sm-3">
-                <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/52d57499359043.5ef127c2252b1.png" alt="Card image cap">
+            <div class="col-sm-4">
+                <img class="card-img-top" src="tiffinc.png" alt="Card image cap">
                 <div class="card">
                     <div class="card-body">
                     <h5 class="card-title">Tiffin Café Website</h5>
-                    <p class="card-text">A Lisbon café wanting to increase their online presence by having a website available for both desktop and mobile</p>
-                    <a href="#" class="btn btn-black">more...</a>
+                    <p class="card-text">A Lisbon café wanting to increase their online presence by having a website</p>
                     </div>
                 </div>
                 </div>
-                <div class="col-sm-3">
-                    <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/32e98c99353869.5ef60527ef90e.png" alt="Card image cap">
-                    <div class="card">
-                        <div class="card-body">
-                        <h5 class="card-title">NOS Play Redesign and Onboarding</h5>
-                        <p class="card-text">Redesign of NOS Play for desktop and mobile to increase client engagement</p>
-                        <a href="#" class="btn btn-black"> more...</a>
                         </div>
                     </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/d9a81c99600217.5ef6247fcf0cc.png" alt="Card image cap">
-                        <div class="card">
-                            <div class="card-body">
-                            <h5 class="card-title">Sun bank mobile application</h5>
-                            <p class="card-text"> Mobile app for Sun bank with easy navigation that gives a clear overview of spendings</p>
-                            <a href="#" class="btn btn-black">more...</a>
-                            </div>
-                         </div>
-                        </div>
-                    </div>
-
-    <!-- 
-
-        RECENT WORK
-
-    -->
-    
-   <br><br>
-
-        <div class="container-fluid">
-            <div class="container1">
-            <div class="row">
-
-                <div class="col-sm-1">
-                    <p class="p1t">
-                        Project:<br>
-                        Date:<br>
-                        Role:<br>
-                        Description:
-
-                    </div>
-
-                <div class="col-sm-5">
-                    <p class="p1t">Diction Wize for mobile<br>
-                        June 2020<br>
-                        UX/UI Designer<br>
-                        Personal project I wanted to make after spending hours browsing through Portuguese dictionaries and realizing just how boring dictionaries are<br><br>
-                        
-                    <br>The goal for this project was to make a dictironary that was easier to use and beautiful to look at. 9/10 users said the dictionary would be a more engaging experience if the content was displayed in a more visually pleasing manner. 
-                     </p>
-                </div>
-
-
-                <div class="col-sm-6">
-                    <div class="p1">
-                        <img class="diction" src="dictionwize.png">
-                    </div>
-
-                </div>
             </div>
-           
-        </div>
-   
-        <div class="hidden-xs hidden-sm">
-        <h1 class="dwHeader"> <b>Diction Wize - </b> <br> an easy to use dictionary</h1>
-        </div>
 
-        <br><br> <br><br> <br><br>  <br><br>
-        <div class="container-fluid">
-            <div class="container2"> 
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class="nos" src="nos.png">
-                   
-                    </div>
-                    <div class="col-sm-3">  
-                        <img class="nosgif" src="nosgif.gif">
-                        </div>
-
-                <div class="col-sm-1">
-                    <p class="p2t">
-                        Project:<br>
-                        Date:<br>
-                        Role:<br>
-                        Description:
-                    </div>
-                    <div class="col-sm-5">
-                        <p class="p2t">NOS Play Redesign & Onboarding<br>
-                            May-June 2020<br>
-                            UX/UI Designer<br>
-                            The client wanted to create a more engaging application experience for the users in hopes they would utilise the service more frequently.
-                         </p>
-                    </div>
-                </div>
-
-                <div class="hidden-xs hidden-sm"> <h1 class="nosHeader"> <b> NOS Play - </b><br> Redesign & Onboarding</h1>
-                </div>
-
-                <div class="container-fluid">
-                    <div class="container3"> 
-                    <div class="row">
-                    
-                        <div class="col-sm-1">
-                            <p class="p3t">
-                                Project:<br>
-                                Date:<br>
-                                Role:<br>
-                                Description:
-                            </div>
-                            <div class="col-sm-5">
-                                <p class="p3t">Tiffin Café E-commerce website<br>
-                                    April 2020<br>
-                                    UX/UI Designer<br>
-                                    Tiffin Café wanted to increase their online presence with a website that would be an authentic representation of them and their family run business.
-                                 </p>
-                            </div>
-
-                             <div class="col-sm-3">
-                                <img class="tiffin" src="tiffin.png">
-                             </div>
-
-                             <div class="col-xs-3">
-                                <img class="tiffinphone" src="tiffinphone.gif">
-                             </div>
-
+  
                             
                              
-                            
-                        </div>
-        
-                        <div class="hidden-xs hidden-sm"> <h1 class="tiffinHeader"> <b> Tiffin Café </b><br> Designing an E-commerce<br> Website</h1>
-                        </div>
-
+                       
         
                     
                         
@@ -280,6 +208,10 @@
      body{
         overflow-x: hidden;
 
+     }
+
+     .nav-item{
+         padding-right:70px;
      }
 
 /*shadows*/
@@ -336,38 +268,8 @@
          margin-top:40px;
      }
      
-     .dwHeader {
-         font-family:'Vidaloka','Georgia';
-         text-align: left;
-         font-size:50px;
-         top:1130px;
-         position:absolute;
-         left:160px;
-         font-weight:normal;
-     }
-
-     .nosHeader {
-
-        font-family:'Vidaloka','Georgia';
-         text-align: right;
-         font-size:50px;
-         top:1930px;
-         position:absolute;
-         left:660px;
-         font-weight:normal;
-
-     }
-
-     .tiffinHeader{
-        font-family:'Vidaloka','Georgia';
-         text-align: left;
-         font-size:50px;
-         top:2535px;
-         position:absolute;
-         left:160px;
-         font-weight:normal;
-     }
-
+     
+  
 
     
 
@@ -380,6 +282,16 @@
      .p2t {
          padding:40px;
      }
+
+     .card-text{
+         font-family:'Lato','Jost','Helvetica';
+
+     }
+     .card-title{
+         font-family:'Lato','Jost','Helvetica';
+
+     }
+     
 
      
 
@@ -496,7 +408,7 @@
          color:#545454;
          background-color:black;
          text-align:right;
-        padding-right:40px;
+        padding-right:80px;
         padding-bottom:5px;
         margin-left:-45px;
         margin-right:-45px;
@@ -511,6 +423,11 @@
          background-color:#F8F5E2;
         margin-top:10px;
       
+     }
+
+     .featured{
+         padding-left:40px;
+         padding-right:40px;
      }
 
 
