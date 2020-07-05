@@ -1,0 +1,468 @@
+
+
+    body{
+       overflow-x: hidden;
+
+    }
+    .nav-item{
+        padding-right:70px;
+    }
+
+/*shadows*/
+
+    .card-img-top {
+        border-radius: 25%, 0, 25%, 0;
+        box-shadow: 5px 15px 15px 5px #F1F1F1;
+    }
+
+    .card-body {
+       box-shadow: 5px 15px 15px 5px #F1F1F1;
+    }
+
+    .btn {
+        box-shadow:3px 2px 2px 3px #8aaedb;
+        margin-left:40px;
+        margin-bottom: 40px;
+        color:white;
+        background-color:#8aaedb;
+    }
+
+/*fonts*/
+
+    .card-text {
+        font-family:'Lato','Jost','Helvetica';
+    }
+
+    .card-title {
+        font-family:'Lato','Jost','Helvetica';
+    }
+
+    .col-sm-3{
+        font-family:'Lato','Helvetica';
+    }
+
+    h1{
+        font-family:'Lato','Helvetica';
+        font-weight:bold;
+    }
+
+    .text{
+        font-size:24px;
+        margin:40px;
+        text-align: left:
+        font-family:'Lato','Jost','Helvetica';
+        font-weight:lighter;
+    }
+
+    .work {
+        font-family:'Lato','Jost','Helvetica';
+        font-weight:lighter;
+        color:#cccccc;
+        margin-left:40px;
+        margin-top:40px;
+    }
+
+    .recent {
+       font-family:'Lato','Jost','Helvetica';
+        font-weight:lighter;
+        color:#cccccc;
+        margin-left:40px;
+        margin-top:40px;
+    }
+    
+    .dwHeader {
+        font-family:'Vidaloka','Georgia';
+        text-align: left;
+        font-size:50px;
+        top:130px;
+        position:absolute;
+        left:160px;
+        font-weight:normal;
+    }
+
+    .nosHeader {
+
+       font-family:'Vidaloka','Georgia';
+        text-align: right;
+        font-size:50px;
+        top:910px;
+        position:absolute;
+        left:660px;
+        font-weight:normal;
+
+    }
+
+    .tiffinHeader{
+       font-family:'Vidaloka','Georgia';
+        text-align: left;
+        font-size:50px;
+        top:1655px;
+        position:absolute;
+        left:160px;
+        font-weight:normal;
+    }
+
+    .morew{
+        padding-left:40px;
+        padding-top:100px;
+        font-family:'Lato','Jost','Helvetica';
+        color:grey;
+    }
+
+
+   
+
+
+    .btn {
+        font-family:'lato','helvetica';
+       
+    }
+
+    .p2t {
+        padding:40px;
+        font-family:'Lato','Jost','Helvetica';
+        font-size:16px;   
+        margin-left:40px;
+        padding-top:80px;
+    }
+
+    
+
+
+/*bg*/
+    .jumbotron{
+       background:white;
+       height:320px;
+       margin-top:120px;
+    }
+
+    .p1t{
+        font-family:'Lato','Jost','Helvetica';
+        font-size:16px;   
+        margin-left:40px;
+        padding-top:100px;
+    }
+
+    .p3t {
+       font-family:'Lato','Jost','Helvetica';
+        font-size:16px;   
+        margin-left:40px;
+        padding-top:40px;
+        padding-left:40px;
+    }
+    
+    .container1{
+        background-color:#F8F5E2;
+        height:510px;
+        margin-top:200px;
+        margin-left:-15px;
+        margin-right:-15px;
+    }
+
+    .container2{
+       background: rgb(241,145,246);
+       background: linear-gradient(90deg, rgba(241,145,246,1) 0%, rgba(0,212,255,1) 100%);
+       color:black;
+        height:510px;
+        margin-top:100px;
+       margin-left:-50px;
+       margin-right:-40px;
+       padding-top:40px;
+       padding-left:10px;
+       padding-right:20px;
+       padding-bottom:40px;
+    }
+
+
+    .container3{
+      background:#529369;
+       color:black;
+        height:510px;
+        margin-top:340px;
+       margin-left:-50px;
+       margin-right:-40px;
+       padding-top:40px;
+       padding-left:10px;
+       padding-right:20px;
+       padding-bottom:40px;
+    } 
+/*image*/
+    .susi{
+        width:200px;
+    }
+
+    .diction{
+        width:500px;
+        float:right;
+      
+    }
+
+    .nos{
+        width:500px;
+        padding-top:100px;
+    }
+
+    .nosgif{
+        width:280px;
+        padding-top:100px;
+    }
+
+   .tiffinphone{
+       width:70px;
+       border-radius:5% ;
+       margin-left:-160px;
+       margin-top:110px;
+   }
+
+   .tiffin{
+       margin-top:-50px;
+   }
+
+   .workheader{
+       opacity:0.2;
+       float:right;
+   }
+
+   .morepic{
+       width:200px;
+       margin-left:-30px;  
+       border-radius:5%;
+   }
+
+   .morepic:hover{
+       opacity:0.2;
+
+   }
+
+   .borapic{
+       width:190px;  
+       border-radius:5%;
+       margin-left:-15px;
+   }
+
+   .borapic:hover{
+       opacity:0.2;
+
+   }
+   .londonpic{
+       width:190px;  
+       border-radius:5%;
+       margin-left:-5px;
+   }
+
+   .londonpic:hover{
+       opacity:0.2;
+
+   }
+
+   .netflix{
+       width:190px;  
+       border-radius:5%;
+       margin-left:5px;
+   }
+
+   .netflix:hover{
+       opacity:0.2;
+
+   }
+
+   .adventure{
+       width:180px;
+       height:108px;
+       border-radius:5%;
+       margin-left:15px;
+   }
+
+   .adventure:hover{
+       opacity:0.2;
+
+   }
+
+   .skyscanner{
+       width:180px;
+       height:108px;
+       border-radius:5%;
+       margin-left:15px;
+   }
+
+   .skyscanner:hover{
+       opacity:0.2;
+
+   }
+
+  
+
+ 
+
+   /*image on mobile version*/
+   .tiffinmobile{
+       width:300px;
+       height:180px;
+       margin-top:-20px;
+   }
+
+   .tiffinmobile2{
+       width:45px;
+       height:100px;
+       margin-top:25px;
+       margin-left:20px;
+   }
+
+   .mobiledw{
+       width:500px;
+       float:right;
+  
+   }
+
+   .nosmobilegif{
+       width:400px;
+       margin-top:100px;
+       float:left;
+       margin-left:60px;
+       
+   }
+
+   .nosmobilegify {
+       width:400px;
+       margin-top:100px;
+       float:left;
+       margin-left:60px;
+       
+   }
+
+   .nosmobilegifyy {
+       width:400px;
+       margin-top:100px;
+       float:left;
+       margin-left:60px;
+       
+   }
+
+   .morepics{
+       width:100px;
+       margin-left:-30px;  
+       border-radius:5%;
+   }
+
+   .borapics{
+       width:90px;  
+       border-radius:5%;
+       margin-left:-15px;
+   }
+
+
+   .londonpics{
+       width:90px;  
+       border-radius:5%;
+       margin-left:-5px;
+   }
+
+
+   .netflixs{
+       width:90px;  
+       border-radius:5%;
+       margin-left:5px;
+   }
+
+
+
+   .adventures{
+       width:80px;
+       height:50px;
+       border-radius:5%;
+       margin-left:15px;
+   }
+
+  
+   }
+
+   .skyscanners{
+       width:80px;
+       height:50px;
+       border-radius:5%;
+       margin-left:15px;
+   }
+
+
+
+   /*links*/
+
+   .noslink{
+       color:black;
+       text-decoration:none;
+   }
+
+   .noslink:hover{
+       color:black;
+       text-decoration:none;
+   }
+   .dwlink{
+       color:black;
+       text-decoration:none;
+   }
+
+   .dwlink:hover{
+       color:black;
+       text-decoration:none;
+   }
+
+   .tiffinlink{
+       color:black;
+       text-decoration:none;
+   }
+
+   .tiffinlink:hover{
+       color:black;
+       text-decoration:none;
+   }
+  
+  
+   
+
+   
+
+    /*footer*/
+    .foot{
+       background-color:black;
+       height:200px;
+       padding:40px;
+       margin-top:50px;
+       margin-left:-40px;
+       margin-right:-40px;
+    }
+
+    .footh{
+        font-family:'Lato','Jost','Helvetica';
+        font-size:36px;
+        color:white;
+        font-weight:lighter;
+
+    }
+    
+    .copyright {
+        color:#545454;
+        background-color:black;
+        text-align:right;
+       padding-right:40px;
+       padding-bottom:5px;
+       margin-left:-45px;
+       margin-right:-45px;
+    }
+
+    .mail {
+        width:50px;
+    }
+
+    .p1{
+        height:500px;
+        background-color:#F8F5E2;
+       margin-top:10px;
+     
+    }
+  
+
+
+ 
+
+
+
