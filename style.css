@@ -177,6 +177,15 @@
        margin-top:-50px;
    }
    
+   .featuredd{
+       text-decoration:none;
+       color:black;
+   }
+   .featuredd:hover{
+    text-decoration:none;
+    color:black;
+    opacity:0.2;
+}
 
    
 
