@@ -20,11 +20,11 @@
     }
 
     .btn {
-        box-shadow:3px 2px 2px 3px #8aaedb;
+        box-shadow:3px 2px 2px 3px grey;
         margin-left:40px;
         margin-bottom: 40px;
         color:white;
-        background-color:#8aaedb;
+        background-color:black;
     }
 
 /*fonts*/
