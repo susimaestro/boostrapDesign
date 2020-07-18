@@ -328,6 +328,7 @@ background: linear-gradient(90deg, rgba(215,250,249,0.9150035014005602) 6%, rgba
     .backgroundNEW { 
 
          background-color: #CFE2E3;
+        
     }
  
     .mainFeaturesNEW{
@@ -352,6 +353,7 @@ background: linear-gradient(90deg, rgba(215,250,249,0.9150035014005602) 6%, rgba
         width:900px;
         margin-top:350px;
         margin-left:-563px;
+        box-shadow: 5px 5px 6px grey ;
     }
 
 /* MAIN FEATURES 5 - CUSTOM LISTS*/
