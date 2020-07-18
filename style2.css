@@ -41,7 +41,7 @@
      .text{
          font-size:24px;
          margin:40px;
-         text-align: left:
+         text-align: left;
          font-family:'Lato','Jost','Helvetica';
          font-weight:lighter;
      }
@@ -219,10 +219,10 @@
          color:#545454;
          background-color:black;
          text-align:right;
-        padding-right:80px;
-        padding-bottom:5px;
-        margin-left:-45px;
-        margin-right:-45px;
+       
+        width:100%;
+        margin-right:100px;
+       
      }
  
      .mail {
@@ -328,7 +328,7 @@
     .text{
         font-size:24px;
         margin:40px;
-        text-align: left:
+        text-align: left;
         font-family:'Lato','Jost','Helvetica';
         font-weight:lighter;
     }
@@ -625,7 +625,7 @@
    }
 
   
-   }
+   
 
    .skyscanners{
        width:80px;
@@ -668,57 +668,135 @@
    }
   
   
+   /* grey gradient*/
+
+   .greygradient {
    
-
+    widows: 100%;
+    height:200px;
+    margin-top:-300px;
+   }
    
+   .neoimg{
+       width:350px;
+       margin-top: 500px;
+       
+   }
 
-    /*footer*/
-    .foot{
-       background-color:black;
-       height:200px;
-       padding:40px;
-       margin-top:50px;
-       margin-left:-40px;
-       margin-right:-40px;
-    }
-
-    .footh{
-        font-family:'Lato','Jost','Helvetica';
-        font-size:36px;
-        color:white;
-        font-weight:lighter;
-
-    }
-    
-    .copyright {
-        color:#545454;
-        background-color:black;
-        text-align:right;
-       padding-right:40px;
-       padding-bottom:5px;
-       margin-left:-45px;
-       margin-right:-45px;
-    }
-
-    .mail {
-        width:50px;
-    }
-
-    .p1{
-        height:500px;
-        background-color:#F8F5E2;
-       margin-top:10px;
-     
-    }
-  
-
-
+   .tiffincaf{
+    width:350px;
+    margin-top: 500px;
+   
+   }
  
 
+.footer{
+    background-color:grey;
+    width:100%;
+    height:200px;
+}
+   
+.footh{
+    font-size:24px;
+    color:grey;
+    font-family:'Raleway';
+    margin-left:30px;
+    margin-top:50px;
+}
+
+.neohead{
+    font-size:24px;
+    color:grey;
+    font-family:'Raleway';
+    margin-left:110px;
+    margin-top:-500px;
+}
+
+    .mail {
+        width:70px;
+        margin-left:25px;
+    }
+
+    .linkedin {
+        width:70px;
+        margin-left:25px;
+
+    }
+
+    .behance {
+        width:70px;
+        margin-left:25px;
+    }
+
+ 
+    .copyright{
+        margin-top: 390px;
+        margin-right:910px;
+        font-family:'Raleway';
+        color:lightslategrey;
+
+    }
+
+    /* MOBILE VERSION */
+    .aboutm{
+        padding:20px;
+        font-family:'Raleway';
+    }
 
 
 
+  .neomobile{
+      width:300px;
+      margin-top:200px;
+      margin-left:80px;
+  }
 
+  .tiffincafmobile{
+        width:300px;
+      margin-top:20px;
+      margin-left:80px;
+  }
+
+  .greymobilefooter{
+      width:100%;
+      height:1000px;
+      background-color:#EDEDED;
+      position:absolute;
+  }
+
+  .workHeadermobile{
+      font-family:'Raleway','Lato','Helvetica';
+      font-size:16px;
+      color:black;
+      position:absolute;
+      font-weight:400;
+      margin-top:120px;
+      margin-left:170px;
+  }
+
+  .mailmobile {
+      width:100px;
+      margin-left:75px;
+      margin-top:50px;
+  }
+
+  .linkedinmobile{
+      width:100px;
+      margin-top:50px;
+  }
+
+  .behancemobile{
+      width:100px;
+      margin-top:50px;
+  }
+
+  .mobilefoot{
+      font-family:'Raleway';
+      font-weight:200px;
+      color:lightslategray;
+      margin-top:50px;
+    font-size:14px;
+  }
  
  
   
