@@ -446,7 +446,8 @@ background: linear-gradient(90deg, rgba(215,250,249,0.9150035014005602) 6%, rgba
     margin-top:90px;
     font-family:'Raleway','Lato','Helvetica';
     font-size:16px;
-    background-color:paleturquoise;
+    background: rgb(252,188,69);
+    background: linear-gradient(90deg, rgba(252,188,69,1) 0%, rgba(251,154,121,1) 100%);
 }
 
 .definingtxt{
@@ -485,7 +486,8 @@ background: linear-gradient(90deg, rgba(215,250,249,0.9150035014005602) 6%, rgba
     margin-top:90px;
     font-family:'Raleway','Lato','Helvetica';
     font-size:16px;
-    background-color:cornflowerblue;
+    background: rgb(184,108,204);
+    background: linear-gradient(90deg, rgba(184,108,204,1) 0%, rgba(233,94,140,1) 100%);
 }
 
 .testingtxt{
@@ -498,7 +500,8 @@ background: linear-gradient(90deg, rgba(215,250,249,0.9150035014005602) 6%, rgba
     margin-top:90px;
     font-family:'Raleway','Lato','Helvetica';
     font-size:16px;
-    background-color:palevioletred;
+    background: rgb(211,204,227);
+    background: linear-gradient(90deg, rgba(211,204,227,1) 0%, rgba(233,228,240,1) 100%);
 }
 
 .visualstxt{
@@ -537,7 +540,7 @@ background: linear-gradient(90deg, rgba(215,250,249,0.9150035014005602) 6%, rgba
     width:230px;
     border-radius:15px;
     margin-top:100px;
-    box-shadow: 10px 13px 6px grey ;
+    box-shadow: 10px 13px #eff0f2 ;
 }
 
 .card-img-top{
@@ -688,7 +691,8 @@ background: linear-gradient(90deg, rgba(215,250,249,0.9150035014005602) 6%, rgba
 /* DEFINING*/
 
 .backgroundDefining {
-    background-color:paleturquoise;
+    background: rgb(252,188,69);
+    background: linear-gradient(90deg, rgba(252,188,69,1) 0%, rgba(251,154,121,1) 100%);
     width: 100%;
     height:2200px;
     margin-right:-50px;
@@ -1057,7 +1061,8 @@ a{text-decoration:none;
 .backgroundtesting{
     width:100%;
     height:900px;
-    background-color:cornflowerblue;
+    background: rgb(198,66,110);
+    background: linear-gradient(90deg, rgba(198,66,110,1) 0%, rgba(100,43,115,1) 100%); 
 }
 
 .testingHeader{
@@ -1100,7 +1105,8 @@ a{text-decoration:none;
 .backgroundvisuals{
     width:100%;
     height:700px;
-    background-color:palevioletred;
+    background: rgb(211,204,227);
+    background: linear-gradient(90deg, rgba(211,204,227,1) 0%, rgba(233,228,240,1) 100%);
     margin-top:150px;
 }
 
@@ -1202,11 +1208,67 @@ a{text-decoration:none;
 
     }
 
+
+    /* MOBILE VERSION*/
+
+    .projectHeadermobile{
+        text-align:center;
+        font-family:'Baskerville','Vidaloka','Georgia';
+        font-size:70px;
+    }
+
+    .projectdeetsmobile{
+        padding:30px;
+        font-family:'Raleway','Lato','Helvetica';
+        font-size:18px;
+        margin-top:-100px;
+
+    }
+
+    .nosplaymobile{
+        width:550px;
+        margin-left:-50px;
+     
+    }
  
+    .projectDescriptionmobile{
+        padding:30px;
+        font-family:'Raleway','Lato','Helvetica';
+        font-size:18px;
+    }
 
 
+    .projectsummarymobile{
+        height:700px;
+        padding:30px;
+        background-color: rgb(177,136,240);
+        font-size:18px;
+        
+    }
+
+    .problemheadmobile{
+        font-size:18px;
+        font-family:'Raleway','Lato','Helvetica';
+
+    
+    }
+    .problemtxtmobile{
+        font-size:18px;
+        font-family:'Raleway','Lato','Helvetica';
 
 
-  
+    }
 
+
+    .goalheadmobile{
+        font-size:18px;
+        font-family:'Raleway','Lato','Helvetica';
+
+    }
+
+    .goaltxtmobile{
+        font-size:18px;
+        font-family:'Raleway','Lato','Helvetica';
+
+    }
 
