@@ -1241,7 +1241,8 @@ a{text-decoration:none;
     .projectsummarymobile{
         height:700px;
         padding:30px;
-        background-color: rgb(177,136,240);
+        background: rgb(150,201,61);
+        background: linear-gradient(90deg, rgba(150,201,61,1) 0%, rgba(0,176,155,1) 100%);
         font-size:18px;
         
     }
@@ -1259,6 +1260,24 @@ a{text-decoration:none;
 
     }
 
+    .problemmob{
+        width:30px;
+        margin-top:20px;
+
+    }
+
+    .problem2mob{
+
+        width:30px;
+        margin-top:20px;
+    }
+
+    .problem1mob{
+        width:20px;
+        margin-top:20px;
+    
+    }
+
 
     .goalheadmobile{
         font-size:18px;
@@ -1272,3 +1291,159 @@ a{text-decoration:none;
 
     }
 
+.onboardingmob{
+    padding-top:400px;
+    position:absolute;
+    width:500px;
+}
+
+.mainFeaturesHeadermob{
+    font-size:50px;
+    margin-top:100px;
+    font-family:'Baskerville','Vidaloka','Georiga';
+    padding:20px;
+}
+
+
+
+.mainFeatures1mob{
+    font-family:'Raleway','Lato','Helvetica';
+    margin-top:20px;
+    font-size:20px;
+    padding:20px;
+}
+
+.mainFeaturestxtm{
+    font-family:'Raleway','Lato','Helvetica';
+    font-size:18px;
+    padding:20px;
+    margin-top:-30px;
+}
+    
+.mainFeatures2mob{
+    font-family:'Raleway','Lato','Helvetica';
+    margin-top:50px;
+    font-size:20px;
+    padding:20px;
+}
+
+.mainFeaturestxt2mob{
+    font-family:'Raleway','Lato','Helvetica';
+    font-size:18px;
+    padding:20px;
+  
+}
+
+.friendsmob{
+    width:500px;
+    margin-top:2px;
+}
+
+.mainFeaturesHeadermob{
+    font-family:'Raleway','Lato','Helvetica';
+    margin-top:50px;
+    font-size:20px;
+    padding:20px;
+}
+
+.reviewmob{
+    width:300px;
+    border-radius:15px;
+    box-shadow: 5px 5px lightgrey;
+    margin:20px;
+
+}
+
+.mainFeatures4mob{
+    font-family:'Raleway','Lato','Helvetica';
+    margin-top:20px;
+    font-size:20px;
+    padding:20px;
+}
+
+.mainFeaturestxt4mob{
+    font-family:'Raleway','Lato','Helvetica';
+    font-size:18px;
+    padding:20px;
+}
+
+.background5mob{
+ 
+    height:700px;
+    margin-top:850px;
+    background: rgb(250,242,204);
+    background: linear-gradient(90deg, rgba(250,242,204,0.788953081232493) 0%, rgba(215,250,249,0.9150035014005602) 83%);
+    width:100%;
+}
+
+.mainFeatures5mob{
+    font-family:'Raleway','Lato','Helvetica';
+    margin-top:50px;
+    font-size:20px;
+    padding:20px;
+}
+.mainFeaturestxt5mob{
+    font-family:'Raleway','Lato','Helvetica';
+    font-size:18px;
+    padding:20px;
+}
+
+.customlistmob{
+    width:450px;
+    margin:20px;
+}
+
+.mainFeatures3mob{
+    font-family:'Raleway','Lato','Helvetica';
+    margin-top:50px;
+    font-size:20px;
+    padding:20px;
+}
+
+.mainFeaturestxt3mob{
+    font-family:'Raleway','Lato','Helvetica';
+    font-size:18px;
+    padding:20px;
+}
+
+.menumob{
+    width:400px;
+    margin:20px;
+}
+
+.background3mob{
+
+    height:800px;
+}
+
+.backgroundNEWmob{
+    height:330px;
+    background-color:#CFE2E3;
+
+}
+
+.mainFeaturesNEWmob{
+    font-family:'Raleway','Lato','Helvetica';
+    margin-top:50px;
+    font-size:20px;
+    padding:20px;
+}
+
+.mainFeaturestxtNEWmob{
+    font-family:'Raleway','Lato','Helvetica';
+    font-size:18px;
+    padding:20px;
+}
+
+.staticMenumob{
+    width:400px;
+    margin:20px;
+
+}
+
+.toread{
+    font-family:'Raleway','Lato','Helvetica';
+    font-size:20px;
+    padding:20px;
+    text-align:center;
+}
