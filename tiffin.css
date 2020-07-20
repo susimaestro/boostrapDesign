@@ -9,12 +9,16 @@ body{
     padding-right:70px;
 }
 
+.plant{
+    float:right;
+}
 /* HEADER SECTION */
 
 .projectHeader{
     font-family:'Baskerville','Vidaloka','Georgia';
     font-weight:500;
     font-size:90px;
+    margin-left:-5px;
 }
 
 .projectDescription {
@@ -70,14 +74,14 @@ body{
 .tiffin1{
     width:400px;
     box-shadow: 7px 7px 10px grey;
-    margin-top:60px;
+    margin-top:100px;
     margin-left:100px;
 }
 
 .tiffin2{
     width:350px;
     box-shadow: 7px 7px 10px grey;
-    margin-top:60px;
+    margin-top:100px;
 }
 
 
@@ -86,21 +90,22 @@ body{
 .quotesection{
     width: 100%;
     height:500px;
-    background: rgb(68,160,141);
-    background: linear-gradient(90deg, rgba(68,160,141,1) 0%, rgba(29,90,84,1) 100%, rgba(9,54,55,1) 100%);
-    margin-right:-20px;
+    background-color:#6F8860;
+    opacity:0.5;
+    margin-top:200px;
 }
 
 .quote{
-    font-family:'Lato','Georgia';
-    color:white;
-
+    font-family:'Karla';
+    color:black;
     font-size:24px;
-    font-weight:200;
+    padding-left:100px;
+    padding-right:100px;
+    font-weight:100;
     text-align:center;
-    padding:100px;
+  
     font-style: italic;
-    margin-top:80px;
+    margin-top:-280px;
 }
 
 
@@ -108,13 +113,11 @@ body{
 /* PROJECT SUMMARY*/
 
 .projectsummary {
-    background: rgb(250,242,204);
-background: linear-gradient(90deg, rgba(250,242,204,0.788953081232493) 0%, rgba(215,250,249,0.9150035014005602) 83%);
-    height:350px;
+     height:350px;
     padding-left:100px;
     padding-right:100px;
     padding-top:50px;
-    margin-top:80px;
+    margin-top:260px;
   
 }      
 
@@ -156,289 +159,23 @@ background: linear-gradient(90deg, rgba(250,242,204,0.788953081232493) 0%, rgba(
 .problem1{
     width:20px;
     margin-left:120px;
-    margin-top:30px;
+    margin-top:150px;
 }
 
 .problem {
     width:30px;
     margin-left:115px;
-    margin-top:30px;
+    margin-top:150px;
 }
 
 .problem2 {
     width:30px;
     margin-left:70px;
-    margin-top:30px;
-}
-
-
-
-/* MAIN FEATURES, FIRST SCREEN SHOT */
-
-.background1 {
-    background-color:white;
-    width:100%;
-    height:700px;
-}
-
-.mainFeaturesHeader{
-    font-family:'Baskerville','Vidaloka','Georgia';
-    font-size:80px;
-    margin-top:90px;
-    font-style:italic;
-    margin-left:105px;
-  
-
-}
-
-.onboarding{
-    width:500px;
-    margin-top:230px;
-    margin-left:-50px;
- 
-}
-
-.mainFeaturestxt{
-    font-family:'Raleway','Lato','Helvetica';
-    font-size:20px;
-    padding-left:100px;
-    padding-right:100px;
-    
-}
-
-.mainFeatures1{
-    font-family:'Raleway','Lato';
-    font-weight:500;
-    font-size:22px;
-    padding-top:100px;
-    padding-left:100px;
-    padding-right:100px;
-    margin-top:-10px;
-}
-
-
-/* MAIN FEATURES 2 - SEE WHAT YOUR FRIENDS ARE INTO*/
-
-.background2 {
-    background: rgb(215,250,249);
-background: linear-gradient(90deg, rgba(215,250,249,0.9150035014005602) 6%, rgba(204,215,250,0.9570203081232493) 68%);
-    width:100%;
-    height:700px;
-
-}
-
-.mainFeaturesHeader2{
-    font-family:'Baskerville','Vidaloka','Georgia';
-    font-size:90px;
-    margin-top:-400px;
-    font-style:italic;
-    margin-left:30px;
-
-}
-
-.friends{
-    width:600px;
-    margin-top:130px;
-    margin-left:40px;
-   
-
-
-}
-
-.mainFeaturestxt2{
-    font-family:'Raleway','Lato','Helvetica';
-    font-size:20px;
-    padding-left:100px;
-    padding-right:50px;
-    
-}
-
-.mainFeatures2{
-    font-family:'Raleway','Lato';
-    font-weight:500;
-    font-size:22px;
-    padding-top:100px;
-    padding-left:100px;
-    padding-right:50px;
     margin-top:150px;
 }
 
 
-/* MAIN FEATURES 3 - MENU FILTER */
-.background3 {
-    background-color:white;
-    width:100%;
-    height:700px;
 
-}
-
-.mainFeaturesHeader3{
-    font-family:'Baskerville','Vidaloka','Georgia';
-    font-size:90px;
-    margin-top:-400px;
-    font-style:italic;
-    margin-left:30px;
-
-}
-
-.menu{
-    width:400px;
-    margin-top:200px;
-    margin-left:40px;
-  
-
-}
-
-.mainFeaturestxt3{
-    font-family:'Raleway','Lato','Helvetica';
-    font-size:20px;
-    padding-left:100px;
-    padding-right:50px;
-    
-}
-
-.mainFeatures3{
-    font-family:'Raleway','Lato';
-    font-weight:500;
-    font-size:22px;
-    padding-top:100px;
-    padding-left:100px;
-    padding-right:50px;
-    margin-top:150px;
-}
-
-
-/* MAIN FEATURES 4 - REVIEW*/
-.background4 {
-background-color:white;
-width:100%;
-height:700px;
-
-}
-
-.mainFeaturesHeader4{
-font-family:'Baskerville','Vidaloka','Georgia';
-font-size:90px;
-margin-top:-490px;
-font-style:italic;
-margin-left:30px;
-
-}
-
-.review{
-width:300px;
-margin-top:140px;
-margin-left:40px;
-box-shadow: 10px 13px 6px lightgray ;
-border-radius: 15px;
-
-
-}
-
-.mainFeaturestxt4{
-font-family:'Raleway','Lato','Helvetica';
-font-size:20px;
-padding-left:100px;
-padding-right:50px;
-
-}
-
-.mainFeatures4{
-font-family:'Raleway','Lato';
-font-weight:500;
-font-size:22px;
-padding-top:100px;
-padding-left:100px;
-padding-right:50px;
-margin-top:120px;
-}
-
-
-/* MAIN FEATURES NEW - RELIABLE STATIC MENU */
-.backgroundNEW { 
-
-     background-color: #CFE2E3;
-    
-}
-
-.mainFeaturesNEW{
-font-family:'Raleway','Lato';
-font-weight:500;
-font-size:22px;
-padding-top:100px;
-padding-left:100px;
-padding-right:50px;
-margin-top:50px;
-  
-}
-
-.mainFeaturestxtNEW{
-    font-family:'Raleway','Lato','Helvetica';
-    font-size:20px;
-    padding-left:100px;
-    padding-right:50px;
-}
-
-.staticMenu{
-    width:900px;
-    margin-top:350px;
-    margin-left:-563px;
-    box-shadow: 5px 5px 6px grey ;
-}
-
-/* MAIN FEATURES 5 - CUSTOM LISTS*/
-
-.background5 {
-background: rgb(250,242,204);
-background: linear-gradient(90deg, rgba(250,242,204,0.788953081232493) 0%, rgba(215,250,249,0.9150035014005602) 83%);
-width:100%;
-height:700px;
-
-
-
-
-}
-
-.mainFeaturesHeader5{
-font-family:'Baskerville','Vidaloka','Georgia';
-font-size:90px;
-margin-top:-400px;
-font-style:italic;
-margin-left:30px;
-
-}
-
-.customlist{
-width:700px;
-margin-top:80px;
-margin-left:-70px;
-
-
-
-}
-
-.mainFeaturestxt5{
-font-family:'Raleway','Lato','Helvetica';
-font-size:20px;
-padding-left:100px;
-padding-right:50px;
-
-}
-
-.mainFeatures5{
-font-family:'Raleway','Lato';
-font-weight:500;
-font-size:22px;
-padding-top:100px;
-padding-left:100px;
-padding-right:50px;
-margin-top:150px;
-}
-
-.seperate{
-width:100%;
-
-}
 
 
 /* THE PROCESS*/
@@ -447,14 +184,14 @@ width:100%;
 font-family:'Baskerville','Vidaloka','Georgia';
 font-size:90px;
 font-style:italic;
-margin-top:0px;
+margin-top:300px;
 }
 
 
 .processDescription{
-font-family:'Baskerville','Vidaloka','Georgia';
-font-size:30px;
-font-style:italic;
+font-family:'Raleway','Lato','Helvetica';
+font-size:20px;
+
 
 }
 
@@ -462,7 +199,7 @@ font-style:italic;
 margin-top:90px;
 font-family:'Raleway','Lato','Helvetica';
 font-size:16px;
-background-color:lightsteelblue;
+background-color:#7A9CC6;
 }
 
 .discoverytxt{
@@ -476,8 +213,7 @@ font-family:'Raleway','Lato','Helvetica';
 margin-top:90px;
 font-family:'Raleway','Lato','Helvetica';
 font-size:16px;
-background: rgb(252,188,69);
-background: linear-gradient(90deg, rgba(252,188,69,1) 0%, rgba(251,154,121,1) 100%);
+background-color:#C4F4C7;
 }
 
 .definingtxt{
@@ -490,7 +226,7 @@ font-family:'Raleway','Lato','Helvetica';
 margin-top:90px;
 font-family:'Raleway','Lato','Helvetica';
 font-size:16px;
-background-color:plum;
+background-color:#B3D2B2;
 }
 
 .ideatingtxt{
@@ -503,7 +239,7 @@ font-family:'Raleway','Lato','Helvetica';
 margin-top:90px;
 font-family:'Raleway','Lato','Helvetica';
 font-size:16px;
-background-color:silver;
+background-color:#BDE4A7;
 }
 
 .prototypingtxt{
@@ -516,8 +252,7 @@ font-family:'Raleway','Lato','Helvetica';
 margin-top:90px;
 font-family:'Raleway','Lato','Helvetica';
 font-size:16px;
-background: rgb(184,108,204);
-background: linear-gradient(90deg, rgba(184,108,204,1) 0%, rgba(233,94,140,1) 100%);
+background-color:#75B09C;
 }
 
 .testingtxt{
@@ -530,9 +265,7 @@ font-family:'Raleway','Lato','Helvetica';
 margin-top:90px;
 font-family:'Raleway','Lato','Helvetica';
 font-size:16px;
-background: rgb(211,204,227);
-background: linear-gradient(90deg, rgba(211,204,227,1) 0%, rgba(233,228,240,1) 100%);
-}
+background-color:#c1a19c ;}
 
 .visualstxt{
 font-size:12px;
@@ -546,7 +279,8 @@ font-family:'Raleway','Lato','Helvetica';
 .backgroundDiscovery{
 width:100%;
 height:3150px;
-background-color:lightsteelblue;
+background-color:#7A9CC6;
+margin-top:250px;
 }
 
 .discoverySubSubHead{
@@ -578,6 +312,60 @@ border-top-left-radius: 15px;
 border-top-right-radius: 15px;
 }
 
+.tiffinsurvey{
+    box-shadow: 7px 7px 7px grey;
+    width:200px;
+    margin-top:60px;
+    border-radius:15px;
+}
+
+.insta{
+  width:500px;
+}
+
+.insta2{
+    width:500px;
+    margin-top:50px;
+  }
+
+.mainstruggle {
+    width:500px;
+    margin-top:270px;
+} 
+
+
+.tiffininterview{
+    width:300px;
+    margin-left:-25px;
+
+}
+.biztiffin{
+    border-radius:15px;
+    box-shadow: 7px 7px 7px grey;
+    width:400px;
+    margin-top:50px;
+}
+
+.bizintro{
+    font-family:'Raleway','Lato','Helvetica';
+    font-size:20px;
+    margin-top:317px;
+
+}
+
+.labo{
+    width:300px;
+    border-radius:15px;
+    box-shadow: 7px 7px 7px grey;
+    margin-top:100px;
+}
+
+.heim{
+    width:300px;
+    border-radius:15px;
+    box-shadow: 7px 7px 7px grey;
+    margin-top:100px;
+}
 .discoverySubHead {
 margin-top:100px;
 font-size:22px;
@@ -609,20 +397,7 @@ font-family:'Raleway','Lato','Helvetica';
 }
 
 
-.nosscreen2{
-    width:400px;
-    border-radius: 15px;
-    margin-top:50px;
-    box-shadow: 10px 13px 6px grey ;
-}
 
-.nosscreen1 {
-    width:200px;
-    border-radius:15px;
-    margin-top:-120px;
-    box-shadow: 10px 13px 6px grey ;
-
-}
 
 .logo{
     margin-left:-50px;
@@ -630,7 +405,7 @@ font-family:'Raleway','Lato','Helvetica';
 }
 
 .compHeader{
-    margin-top:155px;
+    margin-top:235px;
     font-size:22px;
     font-family:'Raleway', 'Helvetica';
 }
@@ -640,42 +415,10 @@ font-family:'Raleway','Lato','Helvetica';
     font-family:'Raleway', 'Helvetica';
 }
 
-.card-text {
-    font-size:16px;
-    font-family:'Raleway', 'Helvetica';
-}
-
-.card-title {
-    font-size:16px;
-    font-family:'Raleway', 'Helvetica';
-}
-
-.oppor img{
-    width:35px;
-    margin-left:0px;
-    margin-top:0px;
-}
 
 
 
-.strength img{
-    width:30px;
-    margin-left:0px;
-    margin-top:0px;
-}
 
-
-.weak img{
-    width:30px;
-    margin-left:0px;
-    margin-top:0px;
-}
-
-.threat img{
-    width:25px;
-    margin-left:0px;
-    margin-top:0px;
-}
 
 .compSq2{
     margin-top:180px;
@@ -683,34 +426,8 @@ font-family:'Raleway','Lato','Helvetica';
     margin-right:100px;
 }
 
-.netflixtxt{
-    margin-top:50px;
-    font-family:'Raleway','Lato','Helvetica';
-    font-size:20px;
-    margin-left:70px;
-}
-
-.hbotxt{
-    margin-top:50px;
-    font-family:'Raleway','Lato','Helvetica';
-    font-size:20px;
-    margin-left:95px;
-}
-
-.hbosmtxt{
-
-    font-family:'Raleway','Lato','Helvetica';
-    font-size:16px;
-    margin-left:95px;
-}
 
 
-.netflixsmtxt{
-
-    font-family:'Raleway','Lato','Helvetica';
-    font-size:16px;
-    margin-left:72px;
-}
 
 .card-body{
     background-color:lightsteelblue;
@@ -721,8 +438,7 @@ font-family:'Raleway','Lato','Helvetica';
 /* DEFINING*/
 
 .backgroundDefining {
-background: rgb(252,188,69);
-background: linear-gradient(90deg, rgba(252,188,69,1) 0%, rgba(251,154,121,1) 100%);
+background-color: #9FBBCC;
 width: 100%;
 height:2200px;
 margin-right:-50px;
