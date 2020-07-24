@@ -7,6 +7,8 @@
     width:70px;
 }
 
+
+
 .linkedin{
     width:70px;
 }
@@ -25,7 +27,7 @@
 }
 
 .nav-item{
-    padding-right:70px;
+    padding-right:170px;
 }
 
 .page-footer{
@@ -45,8 +47,7 @@
     font-size:30px;
     font-family:'Lato';
     font-weight:400;
-    padding-left:250px;
-    padding-right:250px;
+    padding-left:160px;
     transition: opacity 3s ease-in-out, transform 3s ease-in-out;
 
    
@@ -61,21 +62,184 @@
     text-align:center;
     font-size:26px;
     font-weight:300;
-    padding-left:250px;
+    padding-left:160px;
     padding-right:250px;
     font-family:'Lato';
     padding-bottom:40px;
    
 }
 
-.tinynav{
+.tinynav0{
     font-size:11px;
     font-weight:700px;
+    padding:10px;
+    text-decoration:underline;
+    margin-left:220px;
+}
+
+.tinynav1{
+    font-size:11px;
+    font-weight:700px;
+    padding:10px;
+}
+.tinynav2{
+    font-size:11px;
+    font-weight:700px;
+    padding:10px;
+}
+.tinynav3{
+    font-size:11px;
+    font-weight:700px;
+    padding:10px;
+}
+.tinynav4{
+    font-size:11px;
+    font-weight:700px;
+    padding:10px;
 }
 
 .masthead-brand{
-    margin-right:550px;
+    margin-right:780px;
     flex-wrap: nowrap;
     font-family:'Raleway','Lato','Helvetica';
     font-size:20px;
+    margin-top:10px;
 }
+
+.hi{
+    padding-top:150px;
+    padding-bottom:150px;
+    width:600px;
+}
+
+
+
+
+.btn{
+    font-style:8px;
+    padding:12px;
+    margin-left:-595px;
+    margin-top:290px;
+    background-color:#D8D8FD;
+    color:white;
+    border: 2px white;
+    font-family:'Raleway';
+   
+   
+  
+}
+
+.btn:hover{
+    transform:scale(1.1);
+    margin-left:-590px;
+    background-color:#D8D8FD;
+    color:white;
+    border: 2px white;
+    box-shadow: 3px 3px 3px grey;
+   
+}
+
+/* FROM YOUTUBE TUTORIAL */
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+ul.filters{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+    font-size:14px;
+}
+
+ul.filters > li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.filters > li > a{
+    display: block;
+    color: #434e5e;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+ul.filters > li > a:hover{
+    color:#D8D8FD;
+}
+
+ul.filters > li.active > a{
+    color:black;
+    font-weight:bold;
+    text-decoration:underline;
+   
+}
+
+.card{
+    position: relative;
+    margin-bottom: 50px;
+    color: #000;
+    border-radius: 0;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 1px 1px 1.5px rgba(0,0,0,0.075);
+}
+
+.card-head{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.card-hover{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    opacity:0.8;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+.card-body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4.title{
+    color: #434e5e;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.card-btn{
+    margin-bottom: -40px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    border-radius: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-btn:hover{
+    background-color: #28bea8;
+    color: #fff;
+}
+
+

@@ -971,6 +971,12 @@ position:absolute;
     font-size:16px;
     opacity:0.7;
 }
+.masthead-brand{
+    margin-right:780px;
+    flex-wrap: nowrap;
+    font-family:'Raleway','Lato','Helvetica';
+    font-size:20px;
+    margin-top:10px; }
 
 .btn{
     font-size:12px;

@@ -9,6 +9,13 @@
         padding-right:70px;
     }
 
+    .masthead-brand{
+        margin-right:780px;
+        flex-wrap: nowrap;
+        font-family:'Raleway','Lato','Helvetica';
+        font-size:20px;
+        margin-top:10px;
+    }
  /* HEADER SECTION */
 
     .projectHeader{
