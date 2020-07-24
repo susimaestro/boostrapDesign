@@ -33,19 +33,13 @@ body{
     font-family:'Raleway';
     font-size:16px;
     text-align:left;
-   
-    margin-top:0px;
-    color:#cdcdf5;
-
-}
-.timeline{
-    font-family:'Raleway';
-    font-size:16px;
     margin-top:-30px;
-    color:#c9c9fa;
     margin-left:90px;
+    color:#c9c9fa;
 
 }
+
+
 
 .timelinetxt{
     font-family:'Raleway';
@@ -524,7 +518,7 @@ margin-top:-32px;
 
 
 .fourcardsuser {
-margin-top:-180px;
+margin-top:-400px;
 }
 
 .usertesting{
@@ -916,12 +910,31 @@ position:absolute;
 }
 
 
+.footer-copyright{
+    
+    color:grey;
+}
 
+
+.page-footer{
+    background-color: #E9ECEF;
+    padding:50px;
+}
+
+
+
+.footertxt{
+    color:Grey;
+}
+
+.medium{
+    width:70px;
+}
 
 
 .footh{
 font-size:24px;
-color:grey;
+color: grey;
 font-family:'Raleway';
 margin-left:120px;
 position:absolute;
@@ -932,7 +945,7 @@ margin-top:60px;
 
 .neohead{
 font-size:24px;
-color:grey;
+color:#E9ECEF;
 font-family:'Raleway';
 margin-left:110px;
 margin-top:-500px;
@@ -941,38 +954,38 @@ position:absolute;
 
 .mail {
     width:70px;
-    margin-left:24px;
-    margin-top:130px;
-    position:absolute;
+
 }
 
 .linkedin {
     width:70px;
-    margin-left:24px;
-    margin-top:130px;
-    position:absolute;
+   
 }
 
 .behance {
     width:70px;
-    margin-left:24px;
-    margin-top:130px;
-    position:absolute;
-}
-
-
-.copyright{
-   
-   
-    font-family:'Raleway';
-    position:absolute;
-    margin-top:260px;
-    color:lightslategray;
-    float:left;
-    margin-left:125px;
 
 }
 
+.footer-copyright{
+    font-size:16px;
+    opacity:0.7;
+}
+
+.btn{
+    font-size:12px;
+    padding:10px;
+    margin-top:40px;
+    transition: all 0.5s;
+
+}
+
+.btn:hover{
+    padding:15px;
+    transform: scale(1);
+   
+  
+}
 
 /* MOBILE VERSION*/
 
@@ -1175,7 +1188,7 @@ padding:20px;
 .hashtags{
     font-family:'lato';
     font-size:14px;
-    margin-top:40px;
+    margin-top:10px;
     color:lightgray;
     width:280px;
 }
