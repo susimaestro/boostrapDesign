@@ -978,6 +978,15 @@ position:absolute;
     font-size:20px;
     margin-top:10px; }
 
+    .masthead-brand a{
+        color:black;
+        text-decoration: none;
+    }
+    .masthead-brand a:hover{
+        color:black;
+        text-decoration: none;
+    }
+
 .btn{
     font-size:12px;
     padding:10px;

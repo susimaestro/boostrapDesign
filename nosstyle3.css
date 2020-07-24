@@ -16,6 +16,16 @@
         font-size:20px;
         margin-top:10px;
     }
+
+    .masthead-brand a{
+        color:black;
+        text-decoration:none;
+    }
+
+    .masthead-brand a:hover{
+        color:black;
+        text-decoration:none;
+    }
  /* HEADER SECTION */
 
     .projectHeader{
