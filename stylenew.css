@@ -9,6 +9,7 @@
 
 
 
+
 .linkedin{
     width:70px;
 }
@@ -257,3 +258,71 @@ h4.title{
 }
 
 
+/* MOBILE */
+
+.himob{
+    width:450px;
+    margin-top:100px;
+}
+
+.mobintro{
+    margin-top:100px;
+    font-family:'Raleway','Lato';
+  
+    font-size:30px;
+   
+    font-weight:200;
+}
+
+.mobintro2{
+   
+    margin-top:30px;
+   
+}
+.btn1{
+    align-self:center;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:1px white;
+    margin-top:20px;
+    background-color:#D8D8FD;
+    border-radius:25px;
+    box-shadow: 5px 5px grey;
+}
+
+.container1{
+    margin-top:100px;
+}
+
+.mediumm{
+    width:70px;
+}
+
+.linkedinm{
+    width:70px;
+
+}
+
+.mailm{
+    width:70px;
+    
+}
+
+.footer-copyrightm{
+    opacity:0.7;
+    font-size:14px;
+    padding:40px;
+    margin-top:100px;
+}
+
+.behancem{
+    width:70px;
+    
+}
+
+.footertxtm{
+    padding-bottom:30px;
+    color:grey;
+}
