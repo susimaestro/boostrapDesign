@@ -1276,3 +1276,16 @@ width:400px;
     font-family:'Raleway','Lato','Helvetica';
     font-size:18px;
 }
+
+.projectDescriptionm{
+    text-align:center;
+    font-style:italic;
+    font-family:'Raleway','Helvetica';;
+    color:Grey;
+    margin-top:20px;
+}
+
+.toreadmore{
+    font-family:'Raleway';
+    margin-top:40px;
+}

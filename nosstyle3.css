@@ -1276,8 +1276,7 @@ a{text-decoration:none;
     .projectsummarymobile{
         height:700px;
         padding:30px;
-        background: rgb(150,201,61);
-        background: linear-gradient(90deg, rgba(150,201,61,1) 0%, rgba(0,176,155,1) 100%);
+        
         font-size:16px;
         
     }
@@ -1327,7 +1326,7 @@ a{text-decoration:none;
     }
 
 .onboardingmob{
-    padding-top:400px;
+    padding-top:300px;
     position:absolute;
     width:500px;
 }
@@ -1481,4 +1480,13 @@ a{text-decoration:none;
     font-size:16px;
     padding:20px;
     text-align:center;
+}
+
+.projectDescriptionm{
+    text-align:center;
+    font-family:'Raleway','Helvetica';
+    opacity:0.8;
+    color:Grey;
+    margin-top:50px;
+    font-style:italic;
 }
