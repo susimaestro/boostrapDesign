@@ -10,6 +10,7 @@
 
 
 
+
 .linkedin{
     width:70px;
 }
@@ -124,26 +125,40 @@
 
 .btn{
     font-style:8px;
+    display: inline-block;
     padding:12px;
     margin-left:-595px;
     margin-top:290px;
-    background-color:#D8D8FD;
+    background: rgb(173,83,137);
+background: linear-gradient(90deg, rgba(173,83,137,1) 0%, rgba(62,17,84,1) 100%);
     color:white;
     border: 2px white;
     font-family:'Raleway';
+    letter-spacing: 1px;
    
    
   
 }
 
-.btn:hover{
-    transform:scale(1.1);
-    margin-left:-590px;
-    background-color:#D8D8FD;
-    color:white;
-    border: 2px white;
-    box-shadow: 3px 3px 3px grey;
-   
+span{
+    position:absolute;
+    transform: translate(-50%, -50%);
+    pointer-events:none;
+    border-radius:50%;
+    animation:animate 1s linear infinite;
+}
+
+@keyframes animate{
+    0%
+    {
+        width:0px;
+        height:0px;
+    }
+    100%
+    {
+        width:50px;
+        height:50px;
+    }
 }
 
 /* FROM YOUTUBE TUTORIAL */
