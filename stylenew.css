@@ -319,11 +319,13 @@ h4.title{
 
 .mobintro{
     margin-top:100px;
-    font-family:'Raleway','Lato';
+    font-family: sybarite, serif;
+    font-style: normal;
+    font-weight: 600;
   
     font-size:30px;
    
-    font-weight:200;
+    font-weight:500;
 }
 
 .mobintro2{
@@ -332,16 +334,27 @@ h4.title{
    
 }
 .btn1{
-    align-self:center;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:10px;
-    padding-bottom:10px;
-    border:1px white;
-    margin-top:20px;
-    background-color:#D8D8FD;
-    border-radius:25px;
-    box-shadow: 5px 5px grey;
+    font-style:8px;
+    display: inline-block;
+    padding:10px;
+    margin-bottom:50px;
+    margin-top:10px;
+    background: rgb(173,83,137);
+    background: linear-gradient(90deg, rgba(173,83,137,1) 0%, rgba(62,17,84,1) 100%);
+    color:white;
+   
+    font-family:'Raleway';
+    letter-spacing: 1px;
+    position:relative;
+    display:inline-block;
+    border-radius:40px;
+    border: black 0px;
+    overflow:hidden;
+    text-decoration:none;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
 }
 
 .container1{
