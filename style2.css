@@ -263,7 +263,6 @@
 
 	.about{
 		position: relative;
-        opacity: 0;
 		margin:0 auto;
 		background-color: rgba(255, 255, 255, 0);
         width: 100%;
@@ -274,29 +273,16 @@
         transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
         font-family:'Raleway','Lato','Helvetica';
         font-size:16px;
-        font-weight:500;
-	}
-	.about:hover {
-		opacity: 1;
-        transform: translateY(1rem);
-        z-index: 2;
-      
-	}
-	.about:hover:after { /* fix: https://codepen.io/matthewcoxx/pen/qMrrJP*/
-	  content: "";
-	  height: calc(100% + 1rem);
-	  position: absolute;
-	  width: 100%;
-	  z-index: 2;
-	  bottom: 1rem;
     }
+   
     
     .hi{
         font-family:'Raleway','Lato','HELVETICA';
-        color:rgb(173,83,137)
+        color:rgb(173,83,137);
         font-weight:bold;
         font-size:24px;
     }
+
     .im{
         font-family:'Baskerville','Vidaloka','Georgia';
         font-weight:lighter;
