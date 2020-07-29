@@ -279,19 +279,57 @@
     .hi{
         font-family:'Raleway','Lato','HELVETICA';
         color:rgb(173,83,137);
-        font-weight:bold;
-        font-size:24px;
+        font-weight:400;
+        font-size:20px;
+        transition: 0.5s ease-in-out;
+       
+    }
+
+    .hi:hover{
+        font-size:30px;
     }
 
     .im{
-        font-family:'Baskerville','Vidaloka','Georgia';
+        
         font-weight:lighter;
+        font-family: sybarite, serif,'Baskerville';
+        font-style: italic;
+        font-weight: 400;
+        transition: 1s ease-in-out;
+
+    }
+    .im:hover{
+        
+        font-weight:lighter;
+        font-family: sybarite, serif,'Baskerville';
+        font-style: italic;
+        font-weight: 400;
+        font-size:50px;
+      
+
     }
 
     .based{
-        font-family:'Baskerville','Vidaloka','Georgia';
+     
+        font-family: sybarite, serif,'Baskerville';
+        font-style: italic;
+        font-weight: 400;
         font-weight:lighter;
     }
+
+
+   .based:hover{
+       font-style:50px;
+   }
+
+
+nav a{
+    transition: 0.4s ease-in-out
+}
+nav a:hover{
+    font-size:18px;
+    
+}
 
     /*shadows*/
 
