@@ -25,7 +25,11 @@
 
     <title>Susanne Aubert | Design</title>
   </head>
-  
+
+  <body> 
+      <div id="progressbar"></div>
+      <div id="scrollPath"></div>
+     
   
  
 
@@ -974,8 +978,23 @@
           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      
+    
+    <script type="text/javascript">
+     
 
+        let progress = document.getElementById('progressbar');
+        let totalHeight = document.body.scrollHeight - 
+        window.innerHeight;
+        window.onscroll= function(){
+            let progressHeight = (window.pageYOffset / totalHeight)
+            *100;
+            progress.style.height = progressHeight + "%"; 
+        }
+            
+            </script>
+
+
+        </body>
           <!-- Footer FOR DESKTOP-->
 <footer class="page-footer font-small blue pt-4 d-none d-md-block">
 
@@ -1059,20 +1078,6 @@
     </div>
   </div>
 
-  <script type = "text/javascript">
-const buttons = document.querySelectorAll('btn');
-buttons.forEach(btn =>{
-    btn.addEventListener('click',function(e){
-        let x = e.clientX - e.target.offsetLeft;
-        let y = e.clientY - e.target.offsetTop;
-
-        let ripples = document.createElement('span');
-        ripples.style.left = x + 'px';
-        ripples.style.top = y+'px';
-        this.appendChild(ripples);
-   
-    })
-})</script>
   
 
 
