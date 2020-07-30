@@ -410,7 +410,7 @@ body {
     height: 100vh;
  
     background-size: cover;
-    animation: fadeOut 5s linear forwards;
+    animation: fadeOut 1s linear forwards;
     opacity: 1;
 }
 
@@ -459,14 +459,7 @@ body {
     }
 }
 
-.second-block {
-    position: absolute;
-    width: 0%;
-    height: 100vh;
-    background: url("uxux.png");
-    animation: go-left 3.2s cubic-bezier(.74, .06, .4, .92) forwards;
-    animation-delay: 3s;
-}
+
 
 .loader {
     position: absolute;
@@ -538,15 +531,15 @@ body {
 }
 
 .loader ul li:nth-child(7) {
-    animation-delay: 1.6s;
+    animation-delay: s;
 }
 
 .third-block {
     position: absolute;
     width: 0%;
-    height: 100vh;
-    background: #F0F0F0;
-    animation: go-left 2.2s cubic-bezier(.74, .06, .4, .92) forwards;
+    height: 80vh;
+    background: white;
+    animation: expandNow 1.4s cubic-bezier(0.19, 1, 0.22, 1)forwards;
     animation-delay: 6.2s;
 }
 
@@ -598,8 +591,8 @@ body {
 
 img {
     opacity: 0;
-    animation: appearimg 0.1s linear forwards;
-    animation-delay: 6.4s;
+    animation: appearimg 4s linear forwards;
+    animation-delay: 4.5s;
 }
 
 .img:after {
