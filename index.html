@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 
     <!-- Google fonts-->
     
@@ -29,7 +31,36 @@
   </head>
 
   <body> 
+    <div class="temp"></div>
+    <div class="first-block"></div>
+    <div class="second-block"></div>
+    <div class="loader">
+          <ul>
+                <li>U</li>
+                <li>X</li>
+                <li>/</li>
+                <li>U</li>
+                <li>I</li>
+                <li></li>
+                <li></li>
+                <li>D</li>
+                 <li>E</li>
+                 <li>S</li>
+                 <li>I</li>
+                 <li>G</li>
+                 <li>E</li>
+                 <li>R</li>
+          </ul>
+    </div>
+    <div class="third-block"></div>
    
+   
+
+    </div>
+  
+
+
+  
  
 
     <!-- NAVBAR -->
@@ -43,6 +74,8 @@
                 </button>
             </div>
         </div>
+
+        
        
                
 
@@ -1078,10 +1111,69 @@
 
 
   <!-- JS-->
+  
   <script src="script.js"></script>  
   <script src="isotope.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
 
+    TweenMax.from(".logo", 1.6, {
+          delay: 6.4,
+          opacity: 0,
+          y: 30,
+          ease: Expo.easeInOut
+    });
+
+    TweenMax.from(".hi", 1.6, {
+          delay: 6.4,
+          opacity: 0,
+          y: 30,
+          ease: Expo.easeInOut
+    });
+    TweenMax.from(".menu", 1.6, {
+          delay: 6.5,
+          opacity: 0,
+          y: 30,
+          ease: Expo.easeInOut
+    });
+
+    TweenMax.from(".heading", 1.6, {
+          delay: 6.6,
+          opacity: 0,
+          y: 30,
+          ease: Expo.easeInOut
+    });
+
+    TweenMax.from(".desc", 1.6, {
+          delay: 6.7,
+          opacity: 0,
+          y: 30,
+          ease: Expo.easeInOut
+    });
+
+    TweenMax.from("button", 1.6, {
+          delay: 6.8,
+          opacity: 0,
+          y: 30,
+          ease: Expo.easeInOut
+    });
+
+    TweenMax.from(".watch", 1.6, {
+          delay: 6.9,
+          opacity: 0,
+          y: 30,
+          rotation: 90,
+          ease: Expo.easeInOut
+    });
+
+    TweenMax.staggerFrom(".media ul li", 2, {
+          delay: 7,
+          opacity: 0,
+          y: 40,
+          ease: Expo.easeInOut
+    }, 0.2);
+
+    </script>
       </body>
       </html>
       
