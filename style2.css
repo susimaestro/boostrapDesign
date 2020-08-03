@@ -54,11 +54,14 @@
         font-family:'Raleway','Lato','Helvetica';
         font-size:20px;
         margin-top:10px;
+        font-weight:bold;
+
     }
     
     .masthead-brand a{
         color:black;
         text-decoration:none;
+        font-weight:bold;
     }
 
     .masthead-brand a:hover{
@@ -251,6 +254,7 @@
 
     .outline{
         z-index: 2;
+        margin-top:200px;
     }
     
  
@@ -263,16 +267,15 @@
 
 	.about{
 		position: relative;
-		margin:0 auto;
 		background-color: rgba(255, 255, 255, 0);
         width: 100%;
         color:black;
-        padding-right:600px;
-        padding-left:100px;
+        margin-top:100px;
         line-height: 1.5;
         transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
         font-family:'Raleway','Lato','Helvetica';
         font-size:16px;
+      
     }
    
     
@@ -282,6 +285,7 @@
         font-weight:400;
         font-size:20px;
         transition: 0.5s ease-in-out;
+        margin-top:200px;
        
     }
 

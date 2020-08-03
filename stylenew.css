@@ -121,12 +121,13 @@ nav a:hover{
 }
 
 .masthead-brand{
-    margin-right:780px;
+    
     flex-wrap: nowrap;
     font-family:'Raleway','Lato','Helvetica';
     font-size:20px;
     margin-top:10px;
     transition: 0.7 ease-in-out;
+    padding-right:100px;
 }
 
 .masthead-brand a{
