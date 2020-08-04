@@ -6,6 +6,8 @@
  
      .nav-item{
          padding-right:70px;
+         position:relative;
+        
      }
 
 
@@ -13,6 +15,11 @@
     width:70px;
 }
 
+.imsusi{
+    width:500px;
+    margin-top:200px;
+    margin-left:-20px;
+}
 
 
 .linkedin{
