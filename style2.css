@@ -15,6 +15,42 @@
     width:70px;
 }
 
+
+
+
+.buttbutt{
+    border: 1px solid black;
+    border-radius:40px;
+    height:48px;
+    background-color: white;
+    transition: 0.4s ease-in-out;
+    color:black;
+}
+
+.buttbutt a{
+    text-decoration:none;
+    color:black;
+}
+.buttbutt p{
+    
+    font-family:'Raleway';
+    font-size:16px;
+    letter-spacing:2px;
+    padding:10px;
+}
+
+.buttbutt:hover{
+    box-shadow:5px 5px rgb(173,83,137);
+    
+}
+
+
+
+.whitetext{
+    opacity:0;
+}
+
+
 .imsusi{
     width:500px;
     margin-top:200px;
