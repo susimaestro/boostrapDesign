@@ -857,6 +857,25 @@ nav a:hover{
     padding-bottom:30px;
     color:grey;
 }
+
+.getintouch{
+    font-family:'Sybarite';
+    letter-spacing: 5px;
+   margin-top:100px;
+   margin-left:200px;
+   font-style:italic;
+   opacity:0.8;
+}
+
+.social {
+    list-style: none;
  
+}
+
+.social img{
+    width:70px;
+    opacity:0.7;
+    margin-left:50px;
+}
   
  
