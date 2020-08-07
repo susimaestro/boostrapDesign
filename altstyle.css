@@ -1,4 +1,11 @@
-    
+@font-face {
+
+src: url(SybariteMediumItalic.ttf);
+font-family: Sybarite;
+
+}
+
+
 body {
     font-family: 'Raleway','Helvetica';  
     margin: 0;
@@ -42,6 +49,7 @@ li {
     display: table;
     width: 100%;
     position: relative;
+  
    
     
 }
@@ -66,7 +74,7 @@ li {
     line-height: 28px;
     color: #fff;
     font-weight: 400;
-    font-family:'Sybarite','Baskerville';
+    font-family: 'Sybarite','Baskerville';
     line-height: 1;
     margin-top:-80px;
     transition: 0.4s ease-in-out;
