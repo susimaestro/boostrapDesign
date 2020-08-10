@@ -1,0 +1,638 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+body{
+    background:black;
+    color:white;
+
+}
+
+section{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    padding:100px;
+
+}
+.nosheadsection{
+    padding:0;
+}
+
+section video{
+   
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    pointer-events:none;
+
+
+
+
+
+}
+
+p{
+    font-family:'Raleway';
+    font-size:14px;
+}
+
+h2{
+    font-family:'Raleway';
+    font-size:14px;
+}
+
+.noshead{
+    font-size:90px;
+   margin-top:100px;
+   margin-left:100px;
+   margin-right:100px;
+}
+
+.line{
+    background-color:white;
+   position:relative;
+   margin-top:70px;
+   margin-left:100px;
+   margin-bottom:70px;
+   width:400px;
+}
+
+.desc{
+    margin-left:20px;
+    margin-bottom:150px;
+}
+
+.nosfeatimg{
+    border-radius:10px;
+    width:700px;
+    
+}
+
+.challenges{
+    background-color:#E8E8E8;
+    height:600px;
+    width:100%;
+    position:relative;
+    color:black;
+}
+
+.challengesdesc{
+    margin-top:100px;
+    font-style:bold;
+    font-size:36px;
+}
+
+.challengestxt{
+    font-style:bold;
+    padding-top:20px;
+}
+
+.problem{
+    margin-top:100px;
+    padding:40px;
+    color:black;
+    box-shadow:5px 5px 20px rgb(203, 203, 203);
+    background-color:#EEEEEE;
+    transition: 0.5s ease-in-out;
+    opacity:0.7;
+
+}
+
+.problem:hover{
+    background-color:white;
+    opacity:1;
+}
+
+.goals{
+    margin-top:100px;
+    padding:40px;
+    color:black;
+    box-shadow:5px 5px 20px rgb(203, 203, 203);
+    background-color:#EEEEEE;
+    transition: 0.5s ease-in-out;
+    opacity:0.7;
+
+}
+
+.goals:hover{
+    background-color:white;
+    opacity:1;
+}
+
+.solutions{
+    margin-top:100px;
+    padding:40px;
+    color:black;
+    box-shadow:5px 5px 20px rgb(203, 203, 203);
+    background-color:#EEEEEE;
+    transition: 0.5s ease-in-out;
+    opacity:0.7;
+
+}
+
+.solutions:hover{
+    background-color:white;
+    opacity:1;
+}
+
+
+.quote{
+  width:100%;
+  height:600px;
+  background-color:white;
+}
+
+.quotetxt{
+    color:black;
+   padding-left:100px;
+   padding-top:200px;
+   padding-bottom:200px;
+   padding-right:200px;
+    font-size:50px;
+}
+
+.banner{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background: url(noscloud.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+
+.banner .clouds{
+    position:absolute;
+    left:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+
+
+}
+
+.banner .clouds img{
+    position:absolute;
+    max-width:100%;
+    bottom:0;
+    animation: animate calc(8s * var(--i)) linear infinite;
+
+    
+
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.processdiv{
+    height:400px;
+    background-color:white;
+    
+}
+
+
+.theprocessheader{
+    color:black;
+    margin-top:200px;
+    font-size:90px;
+}
+
+
+
+.ideasintro{
+    color:black;
+    margin-top:140px;
+}
+
+
+
+.container{
+
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+ 
+}
+
+.container .column{
+    width:25%;
+    height:100%;
+    float:left;
+    border-right:2px solid rgba(0,0,0,-5);
+    box-sizing:border-box;
+    z-index: 1;
+}
+
+.container .column:last-child{
+    border-right:none;
+}
+
+.container .column .content {
+    position:relative;
+    height:100%;
+}
+
+
+.container .column .content h1 {
+    position:absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    width:100%;
+    background:rgb(0,0,0,-1);
+    text-align:center;
+    margin:0;
+    padding:0;
+    color:rgba(255,255,255,.2);
+    font-size:13em;
+  
+    opacity:1;
+    
+}
+
+.container .column .content .box{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    padding:40px;
+    background:black;
+    text-align:center;
+    transition:0.5s;
+    opacity:0;
+
+}
+
+.container .column .content .box h2{
+    margin:0;
+    padding:0;
+    font-size:24px;
+    color:white;
+    text-align:left;
+
+}
+
+.container .column .content .box p{
+    color:white;
+    font-size:18px;
+    text-align:left;
+}
+
+.container .column .bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    z-index:-1;
+}
+
+.container .column.active .bg.bg1{
+    background: url(survey.gif);
+    background-size:cover;
+   /* background-attachment:;
+    background-position:center;*/
+    transition:0.5s;
+}
+
+.container .column.active .bg.bg2{
+    background: url(hjemmeside.gif);
+    background-size:cover;
+     /*background-attachment: fixed;
+    background-position:center;*/
+    transition:0.5s;
+}
+.container .column.active .bg.bg3{
+    background: url(uxux.png);
+    background-size:cover;
+    /*background-attachment: fixed;
+    background-position:center;*/
+    transition:0.5s;
+}
+.container .column.active .bg.bg4{
+    background: url(desktopmidfi3.png);
+    background-size:cover;
+   /* background-attachment: fixed;
+    background-position:center;*/
+    transition:0.5s;
+}
+.container .column.active .content .box{
+    opacity:1;
+}
+
+.container.bkgprocess {
+    max-width:none;
+    position:relative;
+    padding:50px;
+    margin:0;
+    
+}
+
+.container.surveyinterviews{
+    margin:0;
+    max-width: none;
+    position:relative;
+    width:100%;
+    padding:0;
+    background-color:black;
+    height:450px;
+}
+
+.interview{
+    height:464px;
+    filter:grayscale(1) blur(5px);
+    transition:0.4s ease-in-out;
+}
+.interview:hover{
+  
+    filter:grayscale(0);
+  
+}
+
+.survey{
+    
+    width:100%;
+    filter:grayscale(1) blur(5px);
+    transition:0.4s ease-in-out;
+}
+.survey:hover{
+    filter:grayscale(0);
+}
+
+.userresearch{
+    margin-top:100px;
+    font-style:bold;
+    font-size:36px;
+
+}
+
+.userline{
+    background-color:white;
+    width:200px;
+    height:1px;
+   
+
+}
+
+.container.userresearch{
+    height:900px;
+}
+
+.numbers{
+    width:500px;
+    padding:20px;
+    margin-top:50px;
+    margin-left:100px;
+}
+.carotxt{
+    color:white;
+    background-color:black;
+    padding:5px;
+    font-size:20px;
+    margin-top:100px;
+  
+}
+.carotxtw{
+    color:white;
+    background-color:black;
+    font-weight:bold;
+    font-size:30px;
+    padding:5px;
+
+}
+
+.container.ideating{
+    padding-top:200px;
+    max-width:none;
+    margin:0;
+    padding:0;
+    width:100%;
+    position:relative;
+    background: url('8.png');
+  
+    
+}
+
+.container.caros{
+    padding-top:100px;
+    padding-bottom:100px;
+    height:900px;
+}
+
+.backgroundprototyping{
+    background-color: #E5E6EB;
+    height:3000px;
+}
+
+.definingtxt{
+ 
+    font-style:bold;
+    font-size:36px;
+    margin-left:50px;
+
+}
+
+.definingtxt1{
+   
+    font-style:bold;
+    font-size:16px;
+    margin-left:50px;
+}
+
+.definingline{
+    background-color:white;
+    width:200px;
+    height:1px; 
+    margin-left:50px;
+}
+   
+.ideatetxt{
+    font-style:bold;
+    font-size:36px;
+    margin-left:50px;
+    color:black;
+    margin-top:570px;
+    position:relative;
+}
+
+.ideatetxt1{
+       
+    font-style:bold;
+    font-size:16px;
+    margin-left:50px;
+    color:black;
+    margin-right:50px;
+    position:relative;
+}
+
+.ideateline{
+    background-color:black;
+    width:200px;
+    height:1px; 
+    margin-left:50px;
+    margin-right:50px;
+    
+  
+}
+
+.container.moscow{
+    background:url('moscow.png');
+    max-width:none;
+    margin:0;
+    padding:0;
+    width:100%;
+    position:relative;
+}
+.definingtxt11{
+    margin-bottom:100px;
+}
+
+.prototxt{
+    font-style:bold;
+    font-size:36px;
+    margin-left:50px;
+    color:black;
+    position:relative;
+    margin-top:100px;
+
+}
+
+.prototxt1{
+    font-style:bold;
+    font-size:16px;
+    margin-left:50px;
+    color:black;
+    margin-right:50px;
+    position:relative;
+   
+}
+
+.protoline{
+    background-color:black;
+    width:200px;
+    height:1px; 
+    margin-left:50px;
+    margin-right:50px;
+  
+}
+
+.lowfimob{
+    margin-top:100px;
+}
+
+.lowfimob2{
+    width:560px;
+    height:330px;
+}
+.lowfitxt1{
+    font-style:bold;
+    font-size:16px;
+    margin-left:50px;
+    color:black;
+    margin-right:50px;
+    margin-top:100px;
+    position:relative;
+}
+
+.midfitxt{
+    font-style:bold;
+    font-size:36px;
+    margin-left:100px;
+    color:black;
+    position:relative;
+    margin-top:200px;
+
+}
+.midline{
+    background-color:black;
+    width:200px;
+    height:1px; 
+    margin-left:100px;
+    margin-right:50px;
+}
+
+.midfimobile1{
+    margin-top:50px;
+    width:600px;
+    margin-left:100px;
+}
+
+.midfimobile2{
+    width:600px;
+    margin-left:100px;
+}
+
+.midfitxt1{
+    font-style:bold;
+    font-size:16px;
+    margin-left:50px;
+    color:black;
+    margin-right:50px;
+    margin-top:400px;
+    position:relative;
+    font-family:'Raleway';
+}
+
+.midfifinaltxt{
+    font-style:bold;
+    font-size:16px;
+    margin-left:50px;
+    color:black;
+    margin-right:50px;
+    margin-top:300px;
+    position:relative;
+    font-family:'Raleway';
+}
+
+.midfimobile3{
+    width:500px;
+    margin-top:200px;
+    margin-right:100px;
+}
+
+.hifiHeader{
+    font-style:bold;
+    font-size:36px;
+    margin-left:100px;
+    color:black;
+    position:relative;
+    margin-top:200px;
+}
+
+.hifiline{
+    background-color:black;
+    width:200px;
+    height:1px; 
+    margin-left:100px;
+    margin-right:50px;
+}
+
+.backto{
+    text-decoration:none;
+    color:white;
+    margin:10px;
+}
+
+.backto:hover{
+    text-decoration:none;
+    color:white;
+}
