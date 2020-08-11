@@ -88,6 +88,16 @@ h2{
 .nosfeatimg{
     border-radius:10px;
     width:700px;
+    transition:0.5s ease-in-out;
+    
+}
+
+.nosfeatimg:hover{
+    border-radius:10px;
+    width:1000px;
+    margin-left:-400px;
+    margin-top:-30px;
+
     
 }
 
