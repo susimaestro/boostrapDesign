@@ -12,6 +12,16 @@ body{
     font-family:'Raleway';
 
 }
+.notebook{
+    width:500px;
+    transition:0.5s ease-in-out;
+}
+
+.notebook:hover{
+    width:700px;
+    margin-left:-100px;
+    margin-top:-50px;
+}
 
 section{
     position:relative;
@@ -403,6 +413,14 @@ h2{
     padding:20px;
     margin-top:50px;
     margin-left:100px;
+    transition:0.5s ease-in-out;
+}
+
+.numbers:hover{
+    width:700px;
+    padding:20px;
+    margin-top:-50px;
+    margin-left:-100px;
 }
 .carotxt{
     color:white;
@@ -538,12 +556,29 @@ h2{
 
 .lowfimob{
     margin-top:100px;
+    width:500px;
+    transition:0.5s ease-in-out;
+}
+.lowfimob:hover{
+    margin-top:20px;
+    width:700px;
+    margin-left:-20px;
 }
 
 .lowfimob2{
     width:560px;
-    height:330px;
+  
+    transition:0.5s ease-in-out
 }
+
+
+.lowfimob2:hover{
+    width:700px;
+    margin-top:-80px;
+    margin-left:40px;
+    
+}
+
 .lowfitxt1{
     font-style:bold;
     font-size:16px;
@@ -575,11 +610,22 @@ h2{
     margin-top:50px;
     width:600px;
     margin-left:100px;
+
 }
 
 .midfimobile2{
     width:600px;
     margin-left:100px;
+}
+
+.mids img{
+    width:600px;
+    transition:0.5s ease-in-out;
+}
+
+.mids img:hover{
+    width:790px;
+    margin-left:10px;
 }
 
 .midfitxt1{
@@ -608,7 +654,31 @@ h2{
     width:500px;
     margin-top:200px;
     margin-right:100px;
+    transition:0.5s ease-in-out;
 }
+
+.midfimobile3:hover{
+    width:780px;
+    margin-top:100px;
+   margin-left:-50px;
+
+}
+
+.midfimob5{
+    width:700px;
+    margin-left:-95px;
+    margin-right:100px;
+    transition:0.5s ease-in-out;
+}
+
+.midfimob5:hover{
+    width:1000px;
+    margin-left:-395px;
+    margin-right:100px;
+    margin-top:-50px;
+   
+}
+
 
 .hifiHeader{
     font-style:bold;
