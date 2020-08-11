@@ -508,7 +508,7 @@
 
              let video = document.querySelector('video');
              window.addEventListener('scroll', function(){
-                 let value = window.scrollY;
+                 let value = 1 + window.scrollY/-600;
                  video.style.opacity = value;
              })
              </script>
