@@ -637,3 +637,49 @@ h2{
     text-decoration:none;
     color:white;
 }
+
+.mainfeatHeader{
+    font-style:bold;
+    font-size:36px;
+    margin-left:100px;
+    color:white;
+    position:relative;
+    margin-top:100px;
+    text-align:left;
+}
+
+.container.mainfeatures{
+    height:1200px;
+    width:100%;
+    position:relative;
+}
+
+.maintxt{
+    font-style:bold;
+    font-size:16px;
+    margin-left:100px;
+    color:white;
+    margin-right:50px;
+   
+    position:relative;
+    font-family:'Raleway';
+    text-align:left;
+}
+
+.caromain{
+    width:500px;
+    margin-left:100px;
+    margin-top:50px;
+}
+
+.mainfiline{
+    background-color: white;
+    height:2px;
+    margin-left:100px;
+    width:200px;
+}
+
+.txtcaro{
+    background-color:black;
+    padding:5px;
+}
