@@ -722,3 +722,159 @@ a:hover {
     margin-left:-20px;
     
 }
+
+.nextsteps{
+    
+    width:500px;
+    margin-top:100px;
+   border:solid 0.5px black;
+    padding:50px;
+    transition:0.5s ease-in-out;
+    
+}
+
+
+
+
+
+.nexttxt{
+    font-style:bold;
+    font-size:36px;
+    margin-left:100px;
+    color:black;
+    position:relative;
+    margin-top:50px;
+    text-align:left;
+}
+
+.nexttxt1{
+    font-style:bold;
+    font-size:20px;
+    color:black;
+  margin-left:100px;
+    position:relative;
+    text-align:left;
+}
+
+
+/* STYLE TILES*/
+
+
+.container{
+
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+ 
+}
+
+.container.newbkg .column{
+    width:33%;
+    height:100%;
+    float:left;
+    border-right:2px solid rgba(0,0,0,-5);
+    box-sizing:border-box;
+    z-index: 1;
+}
+
+.container.column:last-child{
+    border-right:none;
+}
+
+.container .column .content {
+    position:relative;
+    height:100%;
+}
+
+
+.container .column .content h1 {
+    position:absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    width:100%;
+    background:rgb(0,0,0,-1);
+    text-align:center;
+    margin:0;
+    padding:0;
+    color:rgba(0, 0, 0, 0.413);
+    font-size:13em;
+  
+    opacity:1;
+    
+}
+
+.container .column .content .box{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    padding:40px;
+    background:black;
+    text-align:center;
+    transition:0.5s;
+    opacity:0;
+
+}
+
+.container .column .content .box h2{
+    margin:0;
+    padding:0;
+    font-size:24px;
+    color:white;
+    text-align:left;
+
+}
+
+.container .column .content .box p{
+    color:white;
+    font-size:18px;
+    text-align:left;
+}
+
+.container .column .bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    z-index:-1;
+}
+
+.container .column.active .bg.bg10{
+    background: url(mood.png);
+    background-size:cover;
+   /* background-attachment:;
+    background-position:center;*/
+    transition:0.5s;
+}
+
+.container .column.active .bg.bg11{
+    background: url(alterations.png);
+    background-size:cover;
+     /*background-attachment: fixed;
+    background-position:center;*/
+    transition:0.5s;
+}
+.container .column.active .bg.bg12{
+    background: url(styletile.png);
+    background-size:cover;
+    /*background-attachment: fixed;
+    background-position:center;*/
+    transition:0.5s;
+}
+
+
+
+
+.container.newbkg .column.active .content .box{
+    opacity:1;
+}
+
+.container.newbkg {
+    max-width:none;
+    position:relative;
+    padding:50px;
+    margin:0;
+    
+}
