@@ -425,7 +425,7 @@ a:hover {
 }
 
 .userline{
-    background-color:white;
+    background-color:black;
     width:200px;
     height:1px;
    
@@ -516,7 +516,7 @@ a:hover {
 }
 
 .definingline{
-    background-color:white;
+    background-color:black;
     width:200px;
     height:1px; 
     margin-left:50px;
