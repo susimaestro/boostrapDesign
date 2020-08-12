@@ -708,31 +708,19 @@ a:hover {
 
 .backto{
     text-decoration:none;
-    color:white;
-    margin:10px;
-}
-
-.backto:hover{
-    text-decoration:none;
-    color:white;
-}
-
-.backto{
     color:black;
-    text-decoration:none;
-    justify-content: center;
-    font-size:14px;
-    transition:0.4s ease-in-out;
-
-}
-.backto:hover{
-    color:black;
-    text-decoration:none;
-    justify-content: center;
+    font-size:16px;
+    transition:0.4s ease-in-out
   
-    margin-left:-20px;
-    
 }
+
+.backto:hover{
+    text-decoration:none;
+    opacity:0.7;
+}
+
+
+
 
 .nextsteps{
     
@@ -890,4 +878,18 @@ a:hover {
     padding:50px;
     margin:0;
     
+}
+
+
+
+
+
+.nexttxt{
+    font-size:24px;
+    margin-top:100px;
+    color:black;
+}
+
+.nextimg{
+    width:400px;
 }

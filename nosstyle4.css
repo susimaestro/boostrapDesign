@@ -712,12 +712,15 @@ h2{
 .backto{
     text-decoration:none;
     color:white;
-    margin:10px;
+ 
+    transition:0.5s ease-in-out;
 }
 
 .backto:hover{
     text-decoration:none;
-    color:white;
+    opacity:0.8;
+   
+
 }
 
 .mainfeatHeader{
@@ -787,3 +790,4 @@ h2{
 .nextimg{
     width:400px;
 }
+
