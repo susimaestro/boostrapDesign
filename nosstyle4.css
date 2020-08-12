@@ -457,6 +457,7 @@ h2{
     width:100%;
     position:relative;
     background: url('8.png');
+    background-size:cover;
   
     
 }
@@ -525,6 +526,7 @@ h2{
 
 .container.moscow{
     background:url('moscow.png');
+    background-size:cover;
     max-width:none;
     margin:0;
     padding:0;
@@ -724,12 +726,12 @@ h2{
     margin-left:100px;
     color:white;
     position:relative;
-    margin-top:100px;
+    margin-top:400px;
     text-align:left;
 }
 
 .container.mainfeatures{
-    height:1200px;
+    height:1600px;
     width:100%;
     position:relative;
 }
