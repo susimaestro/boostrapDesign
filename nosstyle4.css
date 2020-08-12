@@ -765,3 +765,25 @@ h2{
     background-color:black;
     padding:5px;
 }
+
+.container .nextproject{
+    
+    height:100px;
+}
+
+
+
+.nextline{
+    background-color:white;
+    height:0.5px;
+    width:100%;
+}
+
+.nexttxt{
+    font-size:24px;
+    margin-top:100px;
+}
+
+.nextimg{
+    width:400px;
+}
