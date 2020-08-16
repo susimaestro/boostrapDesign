@@ -19,51 +19,166 @@
     <link rel="stylesheet" type="text/css" href="style2.css">
 
     <title>Susanne Aubert | About </title>
+    <style> 
+      .menu {
+          height: 100px;
+          width: 100%;
+          right: 70px;
+          text-align: center;
+          position: fixed;
+          overflow: hidden;
+          transition: all 0.1s ease;
+          z-index: 999;
+        }
+        .menu.active {
+          width:100%;
+          background-color: rgba(0, 0, 0, 0.927);
+          border-radius:50px;
+         
+         
+        }
+        .menu.active .menuContent * {
+          opacity: 1;
+        }
+        .menu.active span i:nth-child(1) {
+          transform: rotate(-45deg) translate(-50%, -50%);
+          top: 50%;
+        
+  
+        }
+        .menu.active span i:nth-child(2) {
+          transform: translateX(-100px);
+          opacity: 0;
+        }
+        .menu.active span i:nth-child(3) {
+          transform: rotate(45deg) translate(-50%, -50%);
+          top: 50%;
+        }
+        .menu span {
+          width: 60px;
+          height: 60px;
+          position: fixed;
+          right: 0;
+  
+          cursor: pointer;
+         
+          z-index: 1;
+        }
+        .menu span i {
+          position: absolute;
+          transform-origin: 50% 50%;
+          width: 45%;
+          height: 2px;
+          left: 0;
+          right: 0;
+          margin: auto;
+          background-color: black;
+          transition: transform 0.3s ease, opacity 0.1s ease 0.1s;
+    
+        }
+        .menu span i:nth-child(1) {
+          top: 40%;
+         
+        }
+        .menu span i:nth-child(2) {
+          top: 50%;
+        }
+        .menu span i:nth-child(3) {
+          top: 60%;
+        }
+        .menu .menuContent {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          line-height: 40px;
+          right: 0px;
+          text-align: center;
+          top:30px;
+        
+        
+        }
+        .menu .menuContent * {
+          opacity: 0;
+        }
+        .menu .menuContent ul li {
+          display: inline-block;
+          margin-left: 50px;
+          margin-right: 50px;
+          color: white;
+          transition: opacity 0.1s ease 0.1s;
+          cursor: pointer;
+          position: relative;
+          font-family:'Sybarite';
+          font-size:24px;
+        }
+        .menu .menuContent ul li:hover:before {
+          opacity: 0.8;
+          top: 13px;
+          left: 20px;
+      
+        }
+        .menu .menuContent ul li:hover:after {
+          opacity: 0.8;
+          bottom: 13px;
+          left: -20px;
+         
+          
+        }
+        .menu .menuContent ul li:before, .menu .menuContent ul li:after {
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 2px;
+          background: rgba(0, 0, 0, 0);
+          transition: all 0.3s ease;
+         
+       
+          
+         
+            
+            
+            </style>
+  </header>
+  
+  
+     
   </head>
   <body>
 
-    <!-- NAVBAR -->
-
   
-     
-             
-      <h3 class="masthead-brand justify-content-right"> <b><a href="https://www.susanneaubert.design/#"> 	< < </a></b></h3>
-       
-	
-    
-
-<!--
-  
-    <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-white" >
-        <a class="navbar-brand" href="#">Susanne</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="w-100 text-right">
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Work
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-           
-          </ul>
+    <div class='menu'>
+          <span class='toggle'>
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+          <div class='menuContent'>
+            <ul>
+            
+              <li><a class="navhome" href="http://www.susanneaubert.design/#">Home</a></li>
+              <li><a class="navwork" href="http://www.susanneaubert.design/work">Work</a></li>;
+              <li><a class="navabout" href="http://www.susanneaubert.design/about">About</a></li>
+              <li><a class="navresume" target="_blank" href="http://www.susanneaubert.design/resume">Resume</a></li>
+              <a href="mailto:contact@susanneaubert.com"><img src="icons/social/twitter.svg" alt=""></a>
+              <a href="https://www.behance.net/susanneaubert"><img src="icons/social/instagram.svg" alt=""></a>
+        <a href="https://www.medium.com/@susanneaubert"><img src="icons/social/dribbble.svg" alt=""></a>
+        <a href="https://www.linkedin.com/in/susanne-aubert"><img src="icons/social/send.svg" alt=""></a>
+            
+            </ul>
+          </div>
         </div>
-      </nav>
+         
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.js"
+           ></script>
+        <script>
+            $('.toggle').on('click', function() {
+            $('.menu').toggleClass('active');
+        });
+            
+        </script>
 
-    -->
+  
 
 
   

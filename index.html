@@ -2,7 +2,6 @@
 <html lang="en">
  
 <head>
-
 <title>Susanne Aubert | Design </title>
  
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
@@ -12,30 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
-
  <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    
-
 <!-- MY CSS -->
     <link rel="stylesheet" type="text/css" href="altstyle.css">
-
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174935495-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-174935495-1');
   
 </script>
-
-
 </head>
-
 <body>
     
  
@@ -48,7 +38,6 @@
 		<span></span>
 	</div>
 </header>
-
 <!-- Full Menu -->
 <div class="full-menu">
 	<div class="fullmenu-content">
@@ -57,9 +46,13 @@
 			<li><a class="navwork" href="http://www.susanneaubert.design/work">Work</a></li>
 			<li><a class="navabout" href="http://www.susanneaubert.design/about">About</a></li>
 			<li><a class="navresume" target="_blank" href="http://www.susanneaubert.design/resume">Resume</a></li>
-			
-		
+
+
 			<li class="social">
+				<a target="_blank" href="mailto:contact@susanneaubert.com"><img src="icons/social/twitter.svg" alt=""></a>
+				<a target="_blank"href="https://www.medium.com/@susanneaubert"><img src="icons/social/dribbble.svg" alt=""></a>
+				<a target="_blank" href="https://www.behance.net/susanneaubert"><img src="icons/social/instagram.svg" alt=""></a>
+				<a target="_blank" href="https://www.linkedin.com/in/susanne-aubert"><img src="icons/social/send.svg" alt=""></a>
 				<a target="_blank" href="mailto:contact@susanneaubert.com"> <img src="icons/social/twitter.svg" alt=""></a>
 				<a target="_blank" href="https://www.medium.com/@susanneaubert"><img src="icons/social/dribbble.svg" alt=""></a>
 				<a target="_blank" href="https://www.behance.net/susanneaubert"><img src="icons/social/instagram.svg" alt=""></a>
@@ -71,25 +64,23 @@
 </div>
 <div class="cd-transition-layer visible opening"> 
     <div class="bg-layer"></div>
-
     
     
 </div><!-- Ink Transition -->
   
-
 <div class="wrapper">
  
-
 <section class="main">
 	<div class="main-content">
         <span class="hello">HI, I'M SUSANNE</span>
 		<h1 class="main-title">I'm a UX/UI Designer<br> passionate about<br>
 		humanising <br>digital design</h1>
 		<div class="social">
+            <h4> SA</h4>
 			<a href="mailto:contact@susanneaubert.com"><img src="icons/social/twitter.svg" alt=""></a>
-			<a target="_blank" href="https://www.behance.net/susanneaubert"><img src="icons/social/instagram.svg" alt=""></a>
-			<a target="_blank" href="https://www.medium.com/@susanneaubert"><img src="icons/social/dribbble.svg" alt=""></a>
-			<a target="_blank" href="https://www.linkedin.com/in/susanne-aubert"><img src="icons/social/send.svg" alt=""></a>
+			<a href="https://www.behance.net/susanneaubert"><img src="icons/social/instagram.svg" alt=""></a>
+			<a href="https://www.medium.com/@susanneaubert"><img src="icons/social/dribbble.svg" alt=""></a>
+			<a href="https://www.linkedin.com/in/susanne-aubert"><img src="icons/social/send.svg" alt=""></a>
        
         
         </div>
@@ -100,53 +91,41 @@
 </div>
 	 
 </section>
-
-
-
  
  
 <script src="jquery-2.1.4.min.js"></script>
  
  <script>
  'use strict'; 
-
 $(document).ready( function() {
  
 	
-
     var width = 100,
         perfData = window.performance.timing, 
         EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
-        time = ((EstimatedTime/1000)%10) * 100
-
-
+        time = ((EstimatedTime/1000)%50) * 100
     // Percentage Increment Animation
     var PercentageID = $(".percentage"),
             start = 0,
-            end = 100,
+            end = 0,
             durataion = time;
             animateValue(PercentageID, start, end, durataion);
-
     function animateValue(id, start, end, duration) {
-
         var range = end - start,
           current = start,
           increment = end > start? 1 : -1,
           stepTime = Math.abs(Math.floor(duration / range)),
           obj = $(id);
-
-
         var timer = setInterval(function() {
             current += increment;
             $(obj).text(current);
           //obj.innerHTML = current;
             if (current == end) {
-                clearInterval(timer);
+                clearInterval(timer)
             }
         }, stepTime);
     }
     
-
     
 	setTimeout(function(){
         $('.preloader').fadeOut();
@@ -155,11 +134,9 @@ $(document).ready( function() {
             $(this).removeClass("visible closing opening").dequeue();
         });
         
-	}, time);
+	}, time); 
 		
     
-
-
    // FADE OUT EFFECT WHEN CLICK A LINK
     $(document).on("click", "a:not(.lightbox)", function () {
         var newUrl = $(this).attr("href");
@@ -173,13 +150,9 @@ $(document).ready( function() {
         return false;
     });
     
-
     var paget = $(".page-title .title").text();
-
     $( ".page-title").append("<span></span>");
     $( ".page-title span").append(paget);
-
-
     
     //posts page hover 
     $('.blog-post .blog-link').hover(function(){
@@ -188,23 +161,16 @@ $(document).ready( function() {
     });
  
 });  
-
-
-
-
 $(window).load( function() {
  
-
 function smokeeffect () { 
     var modalTrigger = $('.nav-icon'),
         transitionLayer = $('.cd-transition-layer'),
         transitionBackground = transitionLayer.children(),
         modalWindow = $('.full-menu');
-
     var frameProportion = 1.78, //png frame aspect ratio
         frames = 25, //number of png frames
         resize = false;
-
     //set transitionBackground dimentions
     setLayerDimensions();
     $(window).on('resize', function(){
@@ -213,7 +179,6 @@ function smokeeffect () {
             (!window.requestAnimationFrame) ? setTimeout(setLayerDimensions, 300) : window.requestAnimationFrame(setLayerDimensions);
         }
     });
-
     //open modal window
     modalTrigger.on('click', function(event){   
         event.preventDefault();
@@ -223,7 +188,6 @@ function smokeeffect () {
             modalWindow.addClass('visible');
         }, delay);
     });
-
     //close modal window
     modalWindow.on('click', '.modal-close', function(event){
         event.preventDefault();
@@ -234,12 +198,10 @@ function smokeeffect () {
             transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
         });
     });
-
     function setLayerDimensions() {
         var windowWidth = $(window).width(),
             windowHeight = $(window).height(),
             layerHeight, layerWidth;
-
         if( windowWidth/windowHeight > frameProportion ) {
             layerWidth = windowWidth;
             layerHeight = layerWidth/frameProportion;
@@ -247,18 +209,14 @@ function smokeeffect () {
             layerHeight = windowHeight*1.2;
             layerWidth = layerHeight*frameProportion;
         }
-
         transitionBackground.css({
             'width': layerWidth*frames+'px',
             'height': layerHeight+'px',
         });
-
         resize = false;
     }
-
 }
 smokeeffect()
-
  
     
 /*--------------------------------------------------
@@ -266,17 +224,13 @@ smokeeffect()
 ---------------------------------------------------*/	
      function homeh() {
         var hometext = $('.main')
-
         hometext.css({
             "height": $(window).height() + "px"
         });
     }
     homeh();
     $(window).resize(homeh);
-
-
     $( ".page-menu li:not(.social) a, .portfolio_filter ul li a").append( "<span></span>" );
-
     $('.nav-icon').on("click", function(){
             $(this).toggleClass('modal-close');
     });
@@ -284,10 +238,7 @@ smokeeffect()
  
      
 }); // document load end 
-
 </script>
-
-
     </div> 
     
     

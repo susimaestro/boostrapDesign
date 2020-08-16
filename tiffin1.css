@@ -893,3 +893,19 @@ a:hover {
 .nextimg{
     width:400px;
 }
+
+
+.menuContent a{
+    color:white;
+    text-decoration:none;
+}
+
+.menuContent img{
+    width:40px;
+    transition:0.4s ease-in-out;
+}
+
+.menuContent img:hover{
+   width:45px;
+}
+

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+
+<title>Susanne Aubert | iOZO </title>
+ 
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+ <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+     
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<!-- MY CSS -->
+    <link rel="stylesheet" type="text/css" href="iozostyle.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174935495-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174935495-1');
+  
+</script>
+
+
+</head>
+
+<body>
+    
+ 
+<header>
+
+      
+    <style> 
+    .menu {
+        height: 100px;
+        width: 100%;
+        right: 70px;
+        text-align: center;
+        position: fixed;
+        overflow: hidden;
+        transition: all 0.1s ease;
+        z-index: 999;
+      }
+      .menu.active {
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.927);
+        border-radius:50px;
+       
+       
+      }
+      .menu.active .menuContent * {
+        opacity: 1;
+      }
+      .menu.active span i:nth-child(1) {
+        transform: rotate(-45deg) translate(-50%, -50%);
+        top: 50%;
+      
+
+      }
+      .menu.active span i:nth-child(2) {
+        transform: translateX(-100px);
+        opacity: 0;
+      }
+      .menu.active span i:nth-child(3) {
+        transform: rotate(45deg) translate(-50%, -50%);
+        top: 50%;
+      }
+      .menu span {
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        right: 0;
+
+        cursor: pointer;
+       
+        z-index: 1;
+      }
+      .menu span i {
+        position: absolute;
+        transform-origin: 50% 50%;
+        width: 45%;
+        height: 2px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: black;
+        transition: transform 0.3s ease, opacity 0.1s ease 0.1s;
+  
+      }
+      .menu span i:nth-child(1) {
+        top: 40%;
+       
+      }
+      .menu span i:nth-child(2) {
+        top: 50%;
+      }
+      .menu span i:nth-child(3) {
+        top: 60%;
+      }
+      .menu .menuContent {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        line-height: 40px;
+        right: 0px;
+        text-align: center;
+        top:30px;
+      
+      
+      }
+      .menu .menuContent * {
+        opacity: 0;
+      }
+      .menu .menuContent ul li {
+        display: inline-block;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: white;
+        transition: opacity 0.1s ease 0.1s;
+        cursor: pointer;
+        position: relative;
+        font-family:'Sybarite';
+        font-size:24px;
+      }
+      .menu .menuContent ul li:hover:before {
+        opacity: 0.8;
+        top: 13px;
+        left: 20px;
+    
+      }
+      .menu .menuContent ul li:hover:after {
+        opacity: 0.8;
+        bottom: 13px;
+        left: -20px;
+       
+        
+      }
+      .menu .menuContent ul li:before, .menu .menuContent ul li:after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: rgba(0, 0, 0, 0);
+        transition: all 0.3s ease;
+       
+     
+        
+       
+          
+          
+          </style>
+</header>
+
+<body> 
+    <section>
+            <video src="iOZObanking.mp4" autoplay="" muted="" loop=""></video>
+        </section>
+
+
+
+    <div class='menu'>
+        <span class='toggle'>
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        <div class='menuContent'>
+          <ul>
+          
+            <li><a class="navhome" href="http://www.susanneaubert.design/#">Home</a></li>
+            <li><a class="navwork" href="http://www.susanneaubert.design/work">Work</a></li>;
+            <li><a class="navabout" href="http://www.susanneaubert.design/about">About</a></li>
+            <li><a class="navresume" target="_blank" href="http://www.susanneaubert.design/resume">Resume</a></li>
+            <a href="mailto:contact@susanneaubert.com"><img src="icons/social/twitter.svg" alt=""></a>
+            <a href="https://www.behance.net/susanneaubert"><img src="icons/social/instagram.svg" alt=""></a>
+			<a href="https://www.medium.com/@susanneaubert"><img src="icons/social/dribbble.svg" alt=""></a>
+			<a href="https://www.linkedin.com/in/susanne-aubert"><img src="icons/social/send.svg" alt=""></a>
+          
+          </ul>
+        </div>
+      </div>
+       
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+         ></script>
+      <script>
+          $('.toggle').on('click', function() {
+          $('.menu').toggleClass('active');
+      });
+          
+      </script>
+        
+	</div>
+     
+    <!--Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	 
+
+
+ 
+    </div> 
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="isotope.min.js"></script>
+    <script src="script.js"></script>  
+
+    <!-- JS-->
+  
+
+  <script src="script.js"></script>  
+  <script src="isotope.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+    </body>
+
+</html>

@@ -27,9 +27,161 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
         <link rel="stylesheet" href="nosstyle4.css">
-        <a href="http://www.susanneaubert.design/work" class="backto"> << </a>
+     
+        <style> 
+            .menu {
+                height: 100px;
+                width: 100%;
+                right: 70px;
+                text-align: center;
+                position: fixed;
+                overflow: hidden;
+                transition: all 0.1s ease;
+                z-index: 999;
+                margin-top:-50px;
+              }
+              .menu.active {
+                width:100%;
+                background-color: rgba(0, 0, 0, 0.927);
+                border-radius:50px;
+               
+               
+              }
+              .menu.active .menuContent * {
+                opacity: 1;
+              }
+              .menu.active span i:nth-child(1) {
+                transform: rotate(-45deg) translate(-50%, -50%);
+                top: 50%;
+              
+        
+              }
+              .menu.active span i:nth-child(2) {
+                transform: translateX(-100px);
+                opacity: 0;
+              }
+              .menu.active span i:nth-child(3) {
+                transform: rotate(45deg) translate(-50%, -50%);
+                top: 50%;
+              }
+              .menu span {
+                width: 60px;
+                height: 60px;
+                position: fixed;
+                right: 0;
+        
+                cursor: pointer;
+               
+                z-index: 1;
+              }
+              .menu span i {
+                position: absolute;
+                transform-origin: 50% 50%;
+                width: 45%;
+                height: 2px;
+                left: 0;
+                right: 0;
+               
+                background-color: white;
+                transition: transform 0.3s ease, opacity 0.1s ease 0.1s;
+          
+              }
+              .menu span i:nth-child(1) {
+                top: 40%;
+               
+              }
+              .menu span i:nth-child(2) {
+                top: 50%;
+              }
+              .menu span i:nth-child(3) {
+                top: 60%;
+              }
+              .menu .menuContent {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                line-height: 40px;
+                right: 0px;
+                text-align: center;
+                top:30px;
+              
+              
+              }
+              .menu .menuContent * {
+                opacity: 0;
+              }
+              .menu .menuContent ul li {
+                display: inline-block;
+                margin-left: 50px;
+                margin-right: 50px;
+                color: white;
+                transition: opacity 0.1s ease 0.1s;
+                cursor: pointer;
+                position: relative;
+                font-family:'Sybarite';
+                font-size:24px;
+              }
+              .menu .menuContent ul li:hover:before {
+                opacity: 0.8;
+                top: 13px;
+                left: 20px;
+            
+              }
+              .menu .menuContent ul li:hover:after {
+                opacity: 0.8;
+                bottom: 13px;
+                left: -20px;
+               
+                
+              }
+              .menu .menuContent ul li:before, .menu .menuContent ul li:after {
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 2px;
+                background: rgba(0, 0, 0, 0);
+                transition: all 0.3s ease;
+               
+             
+                
+               
+                  
+                  
+                  </style>
     </head>
     <body>
+        <div class='menu'>
+        <span class='toggle'>
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        <div class='menuContent'>
+          <ul>
+          
+            <li><a class="navhome" href="http://www.susanneaubert.design/#">Home</a></li>
+            <li><a class="navwork" href="http://www.susanneaubert.design/work">Work</a></li>;
+            <li><a class="navabout" href="http://www.susanneaubert.design/about">About</a></li>
+            <li><a class="navresume" target="_blank" href="http://www.susanneaubert.design/resume">Resume</a></li>
+            <a href="mailto:contact@susanneaubert.com"><img src="icons/social/twitter.svg" alt=""></a>
+            <a href="https://www.behance.net/susanneaubert"><img src="icons/social/instagram.svg" alt=""></a>
+			<a href="https://www.medium.com/@susanneaubert"><img src="icons/social/dribbble.svg" alt=""></a>
+			<a href="https://www.linkedin.com/in/susanne-aubert"><img src="icons/social/send.svg" alt=""></a>
+          
+          </ul>
+        </div>
+      </div>
+       
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+         ></script>
+      <script>
+          $('.toggle').on('click', function() {
+          $('.menu').toggleClass('active');
+      });
+          
+      </script>
+
         <section>
             <video src="noshead.mp4" autoplay="" muted="" loop=""></video>
         </section>
@@ -598,12 +750,7 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6"></div>
-        <a href="http://www.susanneaubert.design/work"> <p class="backto"> << back to work</p></a>
-    </div>
-</div>
+
 
      
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
