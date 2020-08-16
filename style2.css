@@ -893,4 +893,12 @@ nav a:hover{
    width:45px;
 }
 
+a{
+    text-decoration:none;
+    color:black;
+}
 
+a:hover{
+            text-decoration:none;
+        color:black;
+    }
