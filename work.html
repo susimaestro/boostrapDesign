@@ -47,302 +47,316 @@
  
 <header>
   <a href="https://www.susanneaubert.design/#"><h3 class="masthead-brand justify-content-right"> SA</h3></a>
-      
-    <style> 
-    .menu {
-        height: 100px;
-        width: 100%;
-        right: 70px;
-        text-align: center;
-        position: fixed;
-        overflow: hidden;
-        transition: all 0.1s ease;
-        z-index: 999;
-      }
-      .menu.active {
-        width:100%;
-        background-color: rgba(0, 0, 0, 0.927);
-        border-radius:50px;
-       
-       
-      }
-      .menu.active .menuContent * {
-        opacity: 1;
-      }
-      .menu.active span i:nth-child(1) {
-        transform: rotate(-45deg) translate(-50%, -50%);
-        top: 50%;
-      
-
-      }
-      .menu.active span i:nth-child(2) {
-        transform: translateX(-100px);
-        opacity: 0;
-      }
-      .menu.active span i:nth-child(3) {
-        transform: rotate(45deg) translate(-50%, -50%);
-        top: 50%;
-      }
-      .menu span {
-        width: 60px;
-        height: 60px;
-        position: fixed;
-        right: 0;
-
-        cursor: pointer;
-       
-        z-index: 1;
-      }
-      .menu span i {
-        position: absolute;
-        transform-origin: 50% 50%;
-        width: 45%;
-        height: 2px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        background-color: black;
-        transition: transform 0.3s ease, opacity 0.1s ease 0.1s;
-  
-      }
-      .menu span i:nth-child(1) {
-        top: 40%;
-       
-      }
-      .menu span i:nth-child(2) {
-        top: 50%;
-      }
-      .menu span i:nth-child(3) {
-        top: 60%;
-      }
-      .menu .menuContent {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        line-height: 40px;
-        right: 0px;
-        text-align: center;
-        top:30px;
-      
-      
-      }
-      .menu .menuContent * {
-        opacity: 0;
-      }
-      .menu .menuContent ul li {
-        display: inline-block;
-        margin-left: 50px;
-        margin-right: 50px;
-        color: white;
-        transition: opacity 0.1s ease 0.1s;
-        cursor: pointer;
-        position: relative;
-        font-family:'Sybarite';
-        font-size:24px;
-      }
-      .menu .menuContent ul li:hover:before {
-        opacity: 0.8;
-        top: 13px;
-        left: 20px;
     
-      }
-      .menu .menuContent ul li:hover:after {
-        opacity: 0.8;
-        bottom: 13px;
-        left: -20px;
+  <div class="nav-icon float-right">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
        
-        
-      }
-      .menu .menuContent ul li:before, .menu .menuContent ul li:after {
-        content: "";
-        position: absolute;
-        width: 20px;
-        height: 2px;
-        background: rgba(0, 0, 0, 0);
-        transition: all 0.3s ease;
-       
-     
-        
-       
-          
-          
-          </style>
 </header>
 
-
-
-    <div class='menu'>
-        <span class='toggle'>
-          <i></i>
-          <i></i>
-          <i></i>
-        </span>
-        <div class='menuContent'>
-          <ul>
-          
-            <li><a class="navhome" href="http://www.susanneaubert.design/#">Home</a></li>
-            <li><a class="navwork" href="http://www.susanneaubert.design/work">Work</a></li>;
-            <li><a class="navabout" href="http://www.susanneaubert.design/about">About</a></li>
-            <li><a class="navresume" target="_blank" href="http://www.susanneaubert.design/resume">Resume</a></li>
-            <a href="mailto:contact@susanneaubert.com"><img src="icons/social/twitter.svg" alt=""></a>
-            <a href="https://www.behance.net/susanneaubert"><img src="icons/social/instagram.svg" alt=""></a>
-			<a href="https://www.medium.com/@susanneaubert"><img src="icons/social/dribbble.svg" alt=""></a>
-			<a href="https://www.linkedin.com/in/susanne-aubert"><img src="icons/social/send.svg" alt=""></a>
-          
-          </ul>
-        </div>
-      </div>
-       
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-         ></script>
-      <script>
-          $('.toggle').on('click', function() {
-          $('.menu').toggleClass('active');
-      });
-          
-      </script>
-   
-    
-
+<a href="#0" class="modal-close"></a>
+</div>
+<div class="cd-transition-layer"> 
+    <div class="bg-layer"></div>
 
 
  
   
 <section class="main">
 
-    <!-- CAROUSEL-->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-        
-          <div class="carousel-item active">
-            <a href="https://www.behance.net/gallery/99536363/DictionWize-a-sassy-vintage-looking-dictionary" target="_blank"> 
-                <img src="cardw.png" class="d-block w-100" alt="..."> </a>
-          </div>
-
-          <div class="carousel-item">
-           
-           <a target="_blank" href="https://www.behance.net/gallery/102538045/iOZO-banking-website">  <img src="iozo.png" class="d-block w-100" alt="..."></a>
-         </div>
-       </div>
-
-
-          <div class="carousel-item">
-           
-            <a href="https://www.susanneaubert.design/tiffin1">  <img src="cartiff1.png" class="d-block w-100" alt="..."></a>
-          </div>
-          <div class="carousel-item">
-           
-            <a href="https://www.susanneaubert.design/tiffin1">  <img src="cartiff.png" class="d-block w-100" alt="..."></a>
-          </div>
+  <!-- CAROUSEL-->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+      
+        <div class="carousel-item active">
+          <a href="https://www.behance.net/gallery/99536363/DictionWize-a-sassy-vintage-looking-dictionary" target="_blank"> 
+              <img src="cardw.png" class="d-block w-100" alt="..."> </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+
+        <div class="carousel-item">
+         
+         <a target="_blank" href="https://www.behance.net/gallery/102538045/iOZO-banking-website">  <img src="iozo.png" class="d-block w-100" alt="..."></a>
+       </div>
+     </div>
+
+
+        <div class="carousel-item">
+         
+          <a href="https://www.susanneaubert.design/tiffin1">  <img src="cartiff1.png" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+         
+          <a href="https://www.susanneaubert.design/tiffin1">  <img src="cartiff.png" class="d-block w-100" alt="..."></a>
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
-        <!-- GALLERY ON DESKTOP-->
+      <!-- GALLERY ON DESKTOP-->
 
-        <div class="container d-none d-md-block">
+      <div class="container d-none d-md-block">
 
-            <div class="row">
-    
-                <div class="col-lg-12">
-    
-    
-                    <ul class="filters text-center">
-                        <li class="active" data-filter="*"><a href="#!">ALL</a></li>
-                        <li  data-filter=".featured"><a href="#!">FEATURED</a></li>
-                        <li data-filter=".ux"><a href="#!">UX DESIGN</a></li>
-                        <li data-filter=".ui"><a href="#!">UI DESIGN</a></li>
-                        <li data-filter=".coding"><a href="#!">CODING</a></li>
-                       
-                    </ul>
-    
-                    <div class="projects d-none d-md-block">
-    
-                        <div class="row">
-                          <div class="col-lg-6 item featured">
-                                
-                            <div class="card">
-
-                                <div class="card-head">
-                                    <a href="https://www.susanneaubert.design/nos4">
-                                     <img src="nosfeatimg.png" alt="" class="img-fluid card-img">
-                                    <div class="card-hover">
-                                        <h4>NOS Play - UX/UI </h4>
-                                        <p>Redesign and onboarding creation for streaming service NOS Play</p>
-                                    </div>
-                                  </a>
-                                </div>
-
-                             
-
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-6 item ui">
-                                
+          <div class="row">
+  
+              <div class="col-lg-12">
+  
+  
+                  <ul class="filters text-center">
+                      <li class="active" data-filter="*"><a href="#!">ALL</a></li>
+                      <li  data-filter=".featured"><a href="#!">FEATURED</a></li>
+                      <li data-filter=".ux"><a href="#!">UX DESIGN</a></li>
+                      <li data-filter=".ui"><a href="#!">UI DESIGN</a></li>
+                      <li data-filter=".coding"><a href="#!">CODING</a></li>
+                     
+                  </ul>
+  
+                  <div class="projects d-none d-md-block">
+  
+                      <div class="row">
+                        <div class="col-lg-6 item featured">
+                              
                           <div class="card">
-                            <a target="_blank" href="https://www.behance.net/gallery/102538045/iOZO-banking-website"> 
-                              <div class="card-head">
-                                  <img src="iozo.png" alt="" class="img-fluid card-img">
-            
-                                  <div class="card-hover">
-                                      <h4>iOZO Banking - UI</h4>
-                                      <p> Creating a Website concept for the iOZO bank</p>
-                                  </div>
-                              </div></a>
 
-                             
+                              <div class="card-head">
+                                  <a href="https://www.susanneaubert.design/nos4">
+                                   <img src="nosfeatimg.png" alt="" class="img-fluid card-img">
+                                  <div class="card-hover">
+                                      <h4>NOS Play - UX/UI </h4>
+                                      <p>Redesign and onboarding creation for streaming service NOS Play</p>
+                                  </div>
+                                </a>
+                              </div>
+
+                           
 
                           </div>
 
                       </div>
 
+                      <div class="col-lg-6 item ui">
+                              
+                        <div class="card">
+                          <a target="_blank" href="https://www.behance.net/gallery/102538045/iOZO-banking-website"> 
+                            <div class="card-head">
+                                <img src="iozo.png" alt="" class="img-fluid card-img">
+          
+                                <div class="card-hover">
+                                    <h4>iOZO Banking - UI</h4>
+                                    <p> Creating a Website concept for the iOZO bank</p>
+                                </div>
+                            </div></a>
+
+                           
+
                         </div>
 
-                      
-                        <div class="row">
+                    </div>
 
-                        <div class="col-lg-6 item featured">
-                                
-                                <div class="card">
-                                  <a href="https://www.susanneaubert.design/tiffin1"> 
-                                    <div class="card-head">
-                                        <img src="tiffinfeaturemain.png" alt="" class="img-fluid card-img">
-                  
-                                        <div class="card-hover">
-                                            <h4>Tiffin Café - UX/UI</h4>
-                                            <p>E-commerce website for Tiffin Café in Lisboa. A family run business serving plant-based food</p>
-                                        </div>
-                                    </div></a>
-      
-                                 
-      
-                                </div>
-      
-                            </div>
-      
+                      </div>
+
+                    
+                      <div class="row">
+
+                      <div class="col-lg-6 item featured">
+                              
+                              <div class="card">
+                                <a href="https://www.susanneaubert.design/tiffin1"> 
+                                  <div class="card-head">
+                                      <img src="tiffinfeaturemain.png" alt="" class="img-fluid card-img">
+                
+                                      <div class="card-hover">
+                                          <h4>Tiffin Café - UX/UI</h4>
+                                          <p>E-commerce website for Tiffin Café in Lisboa. A family run business serving plant-based food</p>
+                                      </div>
+                                  </div></a>
+    
+                               
+    
                               </div>
+    
+                          </div>
+    
+                            </div>
 
+                
+                    <div class="col-lg-6 item coding">
+                              
+                      <div class="card">
+
+                          <div class="card-head">
+                              <img src="coding1.gif" alt="" class="img-fluid card-img">
+                             
+                              <div class="card-hover">
+                                  <h4>Website for composer - CODING</h4>
+                                  <p> HTML & CSS Portfolio page for composer </p>
+                              </div>
+                          </div>
+
+                       
+
+                      </div>
+
+                  </div>
+
+      <div class="row">
+                          <div class="col-lg-6 item ux">
+                            
+                              
+                              <div class="card">
+  
+                                  <div class="card-head">
+                                      <a href="https://medium.com/usabilitygeek/case-study-add-a-feature-for-netflix-72874c366c87" target="_blank"> <img src="netflixx.png" alt="" class="img-fluid card-img" >
+
+                                      
+                                      <div class="card-hover">
+                                          <h4>Netflix - UX</h4>
+                                          <p>Medium case study published by Usability Geek about the process of designing a new feature for Netflix - Sync With Friends</p>  </a>
+                                      </div>
+                                  
+                                  </div>
+
+                             
+  
+                                  
+  
+                              </div>
+  
+                          </div>
+
+                      </div>
+                          
+  
                   
-                      <div class="col-lg-6 item coding">
+                          <div class="col-lg-6 item ui">
+                              
+                              <div class="card">
+                                <a href="https://www.behance.net/gallery/99536363/DictionWize-a-sassy-vintage-looking-dictionary" target="_blank"> 
+                                  <div class="card-head">
+                                      <img src="dw.png" alt="" class="img-fluid card-img">
+                                     
+                                      <div class="card-hover">
+                                          <h4>DictionWize - UI </h4>
+                                          <p>A dictionairy out of the ordinary for mobile. Features vintage images, sassy quotes and colourful imagery</p>
+                                      </div> </a>
+                                  </div>
+  
                                 
+  
+                              </div>
+  
+                          </div>
+                          
+                             <div class="row">
+                          
+                          <div class="col-lg-6 item ux">
+                              
+                              <div class="card">
+                                <a href="https://medium.com/usabilitygeek/the-process-of-designing-a-website-for-a-caf%C3%A9-45b3afce3909" target="_blank">
+                                  <div class="card-head">
+                                      <img src="alterations.png" alt="" class="img-fluid card-img">
+                                      <div class="card-hover">
+                                          <h4>Tiffin Café - UX</h4>
+                                          <p>Medium case study published by Usability Geek on the process of designing an E-commerce site for Tiffin Café</p>
+                                      </div> </a>
+                                  </div>
+  
+                                 
+  
+                              </div>
+  
+                          </div>
+
+                      </div>
+                          
+                  
+                          <div class="col-lg-6 item ui">
+                              
+                              <div class="card">
+                                <a href="https://www.behance.net/gallery/99600217/Sun-Bank" target="_blank"> 
+                                  <div class="card-head">
+                                      <img src="sunbank.png" alt="" class="img-fluid card-img">
+                                  
+                                      <div class="card-hover">
+                                          <h4>Sun bank - UI</h4>
+                                          <p>A mobile banking app, a personal project of mine for practice purposes</p>
+                                      </div> </a>
+                                  </div>
+  
+  
+                              </div>
+  
+                          </div>
+
+                          <div class="row">
+
+                          <div class="col-lg-6 item coding">
+                          
+                            <div class="card">
+                              <a href="https://www.twicefulmind.com/shop/product/inertia-horns-for-n-i-kontakt/" target="_blank"> 
+                                <div class="card-head">
+                                    <img src="inertia.png" alt="" class="img-fluid card-img">
+                                   
+                                    <div class="card-hover">
+                                        <h4>Inertia Horns - CODING</h4>
+                                        <p>A virtual instrument for Kontakt 5 in collaboration with the music group <i> Twiceful Mind</i></p>
+                                    </div></a>
+                                </div>
+
+                              
+
+                            </div>
+
+                        </div>
+
+                      </div>
+
+
+                
+                          <div class="col-lg-6 item ux">
+                              
+                            <div class="card">
+                              <a href="https://medium.com/usabilitygeek/case-study-adventure-camp-13b20db76885" target="_blank"> 
+                                <div class="card-head">
+                                    <img src="adventure.png" alt="" class="img-fluid card-img">
+                                   
+                                    <div class="card-hover">
+                                        <h4>Adventure Camp - UX</h4>
+                                        <p>A Medium case study published by Usability Geek of a project done with two other UX designers for an online camp application </p>
+                                    </div> </a>
+                                </div>
+
+                             
+
+                            </div>
+
+                        </div>
+                        
+                       
+
+
+                     
+                      
+                   
+  <div class="row">
+                      <div class="col-lg-6 item coding">
+                              
                         <div class="card">
 
                             <div class="card-head">
-                                <img src="coding1.gif" alt="" class="img-fluid card-img">
+                                <img src="website.gif" alt="" class="img-fluid card-img">
                                
                                 <div class="card-hover">
-                                    <h4>Website for composer - CODING</h4>
-                                    <p> HTML & CSS Portfolio page for composer </p>
+                                    <h4> This website - CODING</h4>
+                                    <p>Made with HTML, CSS and a dash of JavaScript & jQuery </p>
                                 </div>
                             </div>
 
@@ -351,256 +365,270 @@
                         </div>
 
                     </div>
-
-        <div class="row">
-                            <div class="col-lg-6 item ux">
+                  </div>
                               
-                                
-                                <div class="card">
-    
-                                    <div class="card-head">
-                                        <a href="https://medium.com/usabilitygeek/case-study-add-a-feature-for-netflix-72874c366c87" target="_blank"> <img src="netflixx.png" alt="" class="img-fluid card-img" >
-
-                                        
-                                        <div class="card-hover">
-                                            <h4>Netflix - UX</h4>
-                                            <p>Medium case study published by Usability Geek about the process of designing a new feature for Netflix - Sync With Friends</p>  </a>
-                                        </div>
-                                    
-                                    </div>
-
-                               
-    
-                                    
-    
-                                </div>
-    
-                            </div>
-
-                        </div>
-                            
-    
-                    
-                            <div class="col-lg-6 item ui">
-                                
-                                <div class="card">
-                                  <a href="https://www.behance.net/gallery/99536363/DictionWize-a-sassy-vintage-looking-dictionary" target="_blank"> 
-                                    <div class="card-head">
-                                        <img src="dw.png" alt="" class="img-fluid card-img">
-                                       
-                                        <div class="card-hover">
-                                            <h4>DictionWize - UI </h4>
-                                            <p>A dictionairy out of the ordinary for mobile. Features vintage images, sassy quotes and colourful imagery</p>
-                                        </div> </a>
-                                    </div>
-    
-                                  
-    
-                                </div>
-    
-                            </div>
-                            
-                               <div class="row">
-                            
-                            <div class="col-lg-6 item ux">
-                                
-                                <div class="card">
-                                  <a href="https://medium.com/usabilitygeek/the-process-of-designing-a-website-for-a-caf%C3%A9-45b3afce3909" target="_blank">
-                                    <div class="card-head">
-                                        <img src="alterations.png" alt="" class="img-fluid card-img">
-                                        <div class="card-hover">
-                                            <h4>Tiffin Café - UX</h4>
-                                            <p>Medium case study published by Usability Geek on the process of designing an E-commerce site for Tiffin Café</p>
-                                        </div> </a>
-                                    </div>
-    
-                                   
-    
-                                </div>
-    
-                            </div>
-
-                        </div>
-                            
-                    
-                            <div class="col-lg-6 item ui">
-                                
-                                <div class="card">
-                                  <a href="https://www.behance.net/gallery/99600217/Sun-Bank" target="_blank"> 
-                                    <div class="card-head">
-                                        <img src="sunbank.png" alt="" class="img-fluid card-img">
-                                    
-                                        <div class="card-hover">
-                                            <h4>Sun bank - UI</h4>
-                                            <p>A mobile banking app, a personal project of mine for practice purposes</p>
-                                        </div> </a>
-                                    </div>
-    
-    
-                                </div>
-    
-                            </div>
-
-                            <div class="row">
-
-                            <div class="col-lg-6 item coding">
-                            
-                              <div class="card">
-                                <a href="https://www.twicefulmind.com/shop/product/inertia-horns-for-n-i-kontakt/" target="_blank"> 
-                                  <div class="card-head">
-                                      <img src="inertia.png" alt="" class="img-fluid card-img">
-                                     
-                                      <div class="card-hover">
-                                          <h4>Inertia Horns - CODING</h4>
-                                          <p>A virtual instrument for Kontakt 5 in collaboration with the music group <i> Twiceful Mind</i></p>
-                                      </div></a>
-                                  </div>
+                     
   
-                                
+                      </div>
+  
+                  </div>
+  
+              </div>
+  
+          </div>
+  
+      </div>
+
+
+
+
+<!-- GALLERY ON MOBILE-->
+      <div class="container d-md-none">
+
+          <div class="row">
+  
+              <div class="col-lg-12">
+  
+  
+                  <ul class="filters text-center">
+                      <li class="active" data-filter="*"><a href="#!">ALL</a></li>
+                      <li  data-filter=".featured"><a href="#!">FEATURED</a></li>
+                      <li data-filter=".ux"><a href="#!">UX DESIGN</a></li>
+                      <li data-filter=".ui"><a href="#!">UI DESIGN</a></li>
+                      <li data-filter=".coding"><a href="#!">CODING</a></li>
+                     
+                  </ul>
+  
+                  <div class="projects d-md-none">
+  
+                      <div class="row">
+                        <div class="col-lg-4 item featured">
+                              
+                          <div class="card">
+
+                              <div class="card-head">
+                                   <img src="nosfeatimg.png" alt="" class="img-fluid card-img">
+                                 
+                                   <a href="https://www.susanneaubert.design/nos4"> <div class="card-hover">
+                                      <h4>NOS Play</h4>
+                                      <p>Redesign and onboarding creation for streaming service NOS Play</p>
+                                  </div>
+                                </a>
+                              </div>
+
+                              <div class="card-body text-center">
+                                  <h4 class="title">UX & UI</h4>
+                               
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                      <div class="col-lg-4 item featured">
+                              
+                        <div class="card">
+                          <a href="https://www.susanneaubert.design/tiffin1"> 
+                            <div class="card-head">
+                                <img src="tiffinfeaturemain.png" alt="" class="img-fluid card-img">
+          
+                                <div class="card-hover">
+                                    <h4>Tiffin Café</h4>
+                                    <p>E-commerce website for Tiffin Café in Lisboa. A family run business serving plant-based food</p>
+                                </div>
+                            </div></a>
+
+                            <div class="card-body text-center">
+                                <h4 class="title">UX & UI</h4>
+                               
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 item coding">
+                              
+                      <div class="card">
+
+                          <div class="card-head">
+                              <img src="coding1.gif" alt="" class="img-fluid card-img">
+                             
+                              <div class="card-hover">
+                                  <h4>Website for composer</h4>
+                                  <p> HTML & CSS Portfolio page for composer </p>
+                              </div>
+                          </div>
+
+                          <div class="card-body text-center">
+                              <h4 class="title">Coding</h4>
+                             
+                          </div>
+
+                      </div>
+
+                  </div>
+  
+                          <div class="col-lg-4 item ux">
+                            
+                              
+                              <div class="card">
+  
+                                  <div class="card-head">
+                                      <img src="netflixx.png" alt="" class="img-fluid card-img" >
+
+                                      <a href="https://medium.com/usabilitygeek/case-study-add-a-feature-for-netflix-72874c366c87" target="_blank">
+                                      <div class="card-hover">
+                                          <h4>Netflix</h4>
+                                          <p>Medium case study published by Usability Geek about the process of designing a new feature for Netflix - Sync With Friends</p>  </a>
+                                      </div>
+                                  
+                                  </div>
+
+                                  <div class="card-body text-center">
+                                    <h4 class="title">UX Article</h4>
+                                   
+                                </div>
+  
+                                  
   
                               </div>
   
                           </div>
 
-                        </div>
-
-
-                  
-                            <div class="col-lg-6 item ux">
-                                
+                   
+                          
+  
+                          <div class="col-lg-4 item ui">
+                              
                               <div class="card">
-                                <a href="https://medium.com/usabilitygeek/case-study-adventure-camp-13b20db76885" target="_blank"> 
+                                <a href="https://www.behance.net/gallery/99536363/DictionWize-a-sassy-vintage-looking-dictionary" target="_blank"> 
                                   <div class="card-head">
-                                      <img src="adventure.png" alt="" class="img-fluid card-img">
+                                      <img src="dw.png" alt="" class="img-fluid card-img">
                                      
                                       <div class="card-hover">
-                                          <h4>Adventure Camp - UX</h4>
-                                          <p>A Medium case study published by Usability Geek of a project done with two other UX designers for an online camp application </p>
+                                          <h4>DictionWize</h4>
+                                          <p>A dictionairy out of the ordinary for mobile. Features vintage images, sassy quotes and colourful imagery</p>
                                       </div> </a>
                                   </div>
   
-                               
+                                  <div class="card-body text-center">
+                                      <h4 class="title">UI</h4>
+                                   
+                                  </div>
   
                               </div>
   
                           </div>
                           
                          
-
-
-                       
-                        
-                     
-    <div class="row">
-                        <div class="col-lg-6 item coding">
-                                
-                          <div class="card">
-  
-                              <div class="card-head">
-                                  <img src="website.gif" alt="" class="img-fluid card-img">
-                                 
-                                  <div class="card-hover">
-                                      <h4> This website - CODING</h4>
-                                      <p>Made with HTML, CSS and a dash of JavaScript & jQuery </p>
+                          
+                          <div class="col-lg-4 item ux">
+                              
+                              <div class="card">
+                                <a href="https://medium.com/usabilitygeek/the-process-of-designing-a-website-for-a-caf%C3%A9-45b3afce3909" target="_blank"> </a>
+                                  <div class="card-head">
+                                      <img src="alterations.png" alt="" class="img-fluid card-img">
+                                      <div class="card-hover">
+                                          <h4>Tiffin Café</h4>
+                                          <p>Medium case study published by Usability Geek on the process of designing an E-commerce site for Tiffin Café</p>
+                                      </div></a>
                                   </div>
+  
+                                  <div class="card-body text-center">
+                                      <h4 class="title">UX Article</h4>
+                                    
+                                  </div>
+  
                               </div>
   
-                           
+                          </div>
+                     
+                          
+  
+                          <div class="col-lg-4 item ui">
+                              
+                              <div class="card">
+                                <a href="https://www.behance.net/gallery/99600217/Sun-Bank" target="_blank"> 
+                                  <div class="card-head">
+                                      <img src="sunbank.png" alt="" class="img-fluid card-img">
+                                  
+                                      <div class="card-hover">
+                                          <h4>Sun bank</h4>
+                                          <p>A mobile banking app, a personal project of mine for practice purposes</p>
+                                      </div> </a>
+                                  </div>
+  
+                                  <div class="card-body text-center">
+                                      <h4 class="title">UI</h4>
+                                    
+                                  </div>
+  
+                              </div>
   
                           </div>
-  
-                      </div>
-                    </div>
-                                
-                       
-    
-                        </div>
-    
-                    </div>
-    
-                </div>
-    
-            </div>
-    
-        </div>
 
-
-
-
-<!-- GALLERY ON MOBILE-->
-        <div class="container d-md-none">
-
-            <div class="row">
-    
-                <div class="col-lg-12">
-    
-    
-                    <ul class="filters text-center">
-                        <li class="active" data-filter="*"><a href="#!">ALL</a></li>
-                        <li  data-filter=".featured"><a href="#!">FEATURED</a></li>
-                        <li data-filter=".ux"><a href="#!">UX DESIGN</a></li>
-                        <li data-filter=".ui"><a href="#!">UI DESIGN</a></li>
-                        <li data-filter=".coding"><a href="#!">CODING</a></li>
-                       
-                    </ul>
-    
-                    <div class="projects d-md-none">
-    
-                        <div class="row">
-                          <div class="col-lg-4 item featured">
-                                
+                          <div class="col-lg-4 item coding">
+                          
                             <div class="card">
-
+                              <a href="https://www.twicefulmind.com/shop/product/inertia-horns-for-n-i-kontakt/" target="_blank"> 
                                 <div class="card-head">
-                                     <img src="nosfeatimg.png" alt="" class="img-fluid card-img">
+                                    <img src="inertia.png" alt="" class="img-fluid card-img">
                                    
-                                     <a href="https://www.susanneaubert.design/nos4"> <div class="card-hover">
-                                        <h4>NOS Play</h4>
-                                        <p>Redesign and onboarding creation for streaming service NOS Play</p>
-                                    </div>
-                                  </a>
+                                    <div class="card-hover">
+                                        <h4>Inertia Horns</h4>
+                                        <p>A virtual instrument for Kontakt 5 in collaboration with the music group <i> Twiceful Mind</i></p>
+                                    </div></a>
                                 </div>
 
                                 <div class="card-body text-center">
-                                    <h4 class="title">UX & UI</h4>
-                                 
+                                    <h4 class="title">Coding</h4>
+                                   
                                 </div>
 
                             </div>
 
                         </div>
 
-                        <div class="col-lg-4 item featured">
-                                
-                          <div class="card">
-                            <a href="https://www.susanneaubert.design/tiffin1"> 
-                              <div class="card-head">
-                                  <img src="tiffinfeaturemain.png" alt="" class="img-fluid card-img">
-            
-                                  <div class="card-hover">
-                                      <h4>Tiffin Café</h4>
-                                      <p>E-commerce website for Tiffin Café in Lisboa. A family run business serving plant-based food</p>
-                                  </div>
-                              </div></a>
 
-                              <div class="card-body text-center">
-                                  <h4 class="title">UX & UI</h4>
+                          <div class="col-lg-4 item ux">
+                              
+                            <div class="card">
+                              <a href="https://medium.com/usabilitygeek/case-study-adventure-camp-13b20db76885" target="_blank"> 
+                                <div class="card-head">
+                                    <img src="adventure.png" alt="" class="img-fluid card-img">
+                                   
+                                    <div class="card-hover">
+                                        <h4>Adventure Camp</h4>
+                                        <p>A Medium case study published by Usability Geek of a project done with two other UX designers for an online camp application </p>
+                                    </div> </a>
+                                </div>
+
+                                <div class="card-body text-center">
+                                    <h4 class="title">UX Article</h4>
                                  
-                              </div>
+                                </div>
 
-                          </div>
+                            </div>
 
-                      </div>
+                        </div>
+                        
+                       
+
+
+                     
+                      
+                   
+
                       <div class="col-lg-4 item coding">
-                                
+                              
                         <div class="card">
 
                             <div class="card-head">
-                                <img src="coding1.gif" alt="" class="img-fluid card-img">
+                                <img src="website.gif" alt="" class="img-fluid card-img">
                                
                                 <div class="card-hover">
-                                    <h4>Website for composer</h4>
-                                    <p> HTML & CSS Portfolio page for composer </p>
+                                    <h4> ⇢ This website ⇠</h4>
+                                    <p>Made with HTML, CSS and a dash of JavaScript</p>
                                 </div>
                             </div>
 
@@ -612,225 +640,207 @@
                         </div>
 
                     </div>
-    
-                            <div class="col-lg-4 item ux">
+
                               
-                                
-                                <div class="card">
-    
-                                    <div class="card-head">
-                                        <img src="netflixx.png" alt="" class="img-fluid card-img" >
-
-                                        <a href="https://medium.com/usabilitygeek/case-study-add-a-feature-for-netflix-72874c366c87" target="_blank">
-                                        <div class="card-hover">
-                                            <h4>Netflix</h4>
-                                            <p>Medium case study published by Usability Geek about the process of designing a new feature for Netflix - Sync With Friends</p>  </a>
-                                        </div>
-                                    
-                                    </div>
-
-                                    <div class="card-body text-center">
-                                      <h4 class="title">UX Article</h4>
-                                     
-                                  </div>
-    
-                                    
-    
-                                </div>
-    
-                            </div>
-
                      
-                            
-    
-                            <div class="col-lg-4 item ui">
-                                
-                                <div class="card">
-                                  <a href="https://www.behance.net/gallery/99536363/DictionWize-a-sassy-vintage-looking-dictionary" target="_blank"> 
-                                    <div class="card-head">
-                                        <img src="dw.png" alt="" class="img-fluid card-img">
-                                       
-                                        <div class="card-hover">
-                                            <h4>DictionWize</h4>
-                                            <p>A dictionairy out of the ordinary for mobile. Features vintage images, sassy quotes and colourful imagery</p>
-                                        </div> </a>
-                                    </div>
-    
-                                    <div class="card-body text-center">
-                                        <h4 class="title">UI</h4>
-                                     
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-                            
-                           
-                            
-                            <div class="col-lg-4 item ux">
-                                
-                                <div class="card">
-                                  <a href="https://medium.com/usabilitygeek/the-process-of-designing-a-website-for-a-caf%C3%A9-45b3afce3909" target="_blank"> </a>
-                                    <div class="card-head">
-                                        <img src="alterations.png" alt="" class="img-fluid card-img">
-                                        <div class="card-hover">
-                                            <h4>Tiffin Café</h4>
-                                            <p>Medium case study published by Usability Geek on the process of designing an E-commerce site for Tiffin Café</p>
-                                        </div></a>
-                                    </div>
-    
-                                    <div class="card-body text-center">
-                                        <h4 class="title">UX Article</h4>
-                                      
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-                       
-                            
-    
-                            <div class="col-lg-4 item ui">
-                                
-                                <div class="card">
-                                  <a href="https://www.behance.net/gallery/99600217/Sun-Bank" target="_blank"> 
-                                    <div class="card-head">
-                                        <img src="sunbank.png" alt="" class="img-fluid card-img">
-                                    
-                                        <div class="card-hover">
-                                            <h4>Sun bank</h4>
-                                            <p>A mobile banking app, a personal project of mine for practice purposes</p>
-                                        </div> </a>
-                                    </div>
-    
-                                    <div class="card-body text-center">
-                                        <h4 class="title">UI</h4>
-                                      
-                                    </div>
-    
-                                </div>
-    
-                            </div>
-
-                            <div class="col-lg-4 item coding">
-                            
-                              <div class="card">
-                                <a href="https://www.twicefulmind.com/shop/product/inertia-horns-for-n-i-kontakt/" target="_blank"> 
-                                  <div class="card-head">
-                                      <img src="inertia.png" alt="" class="img-fluid card-img">
-                                     
-                                      <div class="card-hover">
-                                          <h4>Inertia Horns</h4>
-                                          <p>A virtual instrument for Kontakt 5 in collaboration with the music group <i> Twiceful Mind</i></p>
-                                      </div></a>
-                                  </div>
-  
-                                  <div class="card-body text-center">
-                                      <h4 class="title">Coding</h4>
-                                     
-                                  </div>
-  
-                              </div>
-  
-                          </div>
-
-
-                            <div class="col-lg-4 item ux">
-                                
-                              <div class="card">
-                                <a href="https://medium.com/usabilitygeek/case-study-adventure-camp-13b20db76885" target="_blank"> 
-                                  <div class="card-head">
-                                      <img src="adventure.png" alt="" class="img-fluid card-img">
-                                     
-                                      <div class="card-hover">
-                                          <h4>Adventure Camp</h4>
-                                          <p>A Medium case study published by Usability Geek of a project done with two other UX designers for an online camp application </p>
-                                      </div> </a>
-                                  </div>
-  
-                                  <div class="card-body text-center">
-                                      <h4 class="title">UX Article</h4>
-                                   
-                                  </div>
-  
-                              </div>
-  
-                          </div>
-                          
-                         
-
-
-                       
-                        
-                     
-
-                        <div class="col-lg-4 item coding">
-                                
-                          <div class="card">
-  
-                              <div class="card-head">
-                                  <img src="website.gif" alt="" class="img-fluid card-img">
-                                 
-                                  <div class="card-hover">
-                                      <h4> ⇢ This website ⇠</h4>
-                                      <p>Made with HTML, CSS and a dash of JavaScript</p>
-                                  </div>
-                              </div>
-  
-                              <div class="card-body text-center">
-                                  <h4 class="title">Coding</h4>
-                                 
-                              </div>
-  
-                          </div>
   
                       </div>
-
-                                
-                       
-    
-                        </div>
-    
-                    </div>
-    
-                </div>
-    
-            </div>
-    
-        </div>
+  
+                  </div>
+  
+              </div>
+  
+          </div>
+  
+      </div>
 
 
 
 
 
-        
-	</div>
-     
-    <!--Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-	 
-</section>
+      
+</div>
+   
+  <!--Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
  
-    </div> 
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="isotope.min.js"></script>
-    <script src="script.js"></script>  
+</section>
 
-    <!-- JS-->
+
+
+  </div> 
   
-
-  <script src="script.js"></script>  
-  <script src="isotope.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  
+  <script src="isotope.min.js"></script>
+  <script src="script.js"></script>  
+
+  <!-- JS-->
+
+
+<script src="script.js"></script>  
+<script src="isotope.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+
+    
+    <script>
+      'use strict'; 
+     $(document).ready( function() {
+      
+       function homeh() {
+             var hometext = $('.main')
+             hometext.css({
+                 "height": $(window).height() + "px"
+             });
+         }
+         homeh();
+         $(window).resize(homeh);
+         $( ".page-menu li:not(.social) a, .portfolio_filter ul li a").append( "<span></span>" );
+         $('.nav-icon').on("click", function(){
+                 $(this).toggleClass('modal-close');
+         });
+      
+         var width = 100,
+             perfData = window.performance.timing, 
+             EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
+             time = ((EstimatedTime/1000)%50) * 100
+         // Percentage Increment Animation
+         var PercentageID = $(".percentage"),
+                 start = 0,
+                 end = 0,
+                 durataion = time;
+                 animateValue(PercentageID, start, end, durataion);
+         function animateValue(id, start, end, duration) {
+             var range = end - start,
+               current = start,
+               increment = end > start? 1 : -1,
+               stepTime = Math.abs(Math.floor(duration / range)),
+               obj = $(id);
+             var timer = setInterval(function() {
+                 current += increment;
+                 $(obj).text(current);
+               //obj.innerHTML = current;
+                 if (current == end) {
+                     clearInterval(timer)
+                 }
+             }, stepTime);
+         }
+         
+         
+       setTimeout(function(){
+             $('.preloader').fadeOut();
+             if($('.cd-transition-layer').contains('visible opening')) {
+             $('.cd-transition-layer').addClass('closing').delay(1000).queue(function(){
+                 $(this).removeClass("visible closing opening").dequeue();
+             });
+         }
+             
+       }, time); 
+         
+         
+        // FADE OUT EFFECT WHEN CLICK A LINK
+         $(document).on("click", "a:not(.lightbox)", function () {
+             var newUrl = $(this).attr("href");
+             if (!newUrl || newUrl[0] === "#") {
+                 location.hash = newUrl;
+                 return;
+             }
+             $("html").fadeOut(function () {
+                 location = newUrl;
+             });
+             return false;
+         });
+         
+         var paget = $(".page-title .title").text();
+         $( ".page-title").append("<span></span>");
+         $( ".page-title span").append(paget);
+         
+         //posts page hover 
+         $('.blog-post .blog-link').hover(function(){
+             $(this).parent('.content-outter').parent('.blog-post').toggleClass('mousef');
+             $(this).parent('.blog-post').toggleClass('mousef');
+         });
+      
+     });  
+     $(window).load( function() {
+     $('.cd-transition-layer').removeClass('closing opening visible');
+     function smokeeffect () { 
+         var modalTrigger = $('.nav-icon'),
+             transitionLayer = $('.cd-transition-layer'),
+             transitionBackground = transitionLayer.children(),
+             modalWindow = $('.full-menu');
+         var frameProportion = 1.78, //png frame aspect ratio
+             frames = 25, //number of png frames
+             resize = false;
+         //set transitionBackground dimentions
+         setLayerDimensions();
+         $(window).on('resize', function(){
+             if( !resize ) {
+                 resize = true;
+                 (!window.requestAnimationFrame) ? setTimeout(setLayerDimensions, 300) : window.requestAnimationFrame(setLayerDimensions);
+             }
+         });
+         //open modal window
+         modalTrigger.on('click', function(event){   
+             event.preventDefault();
+             transitionLayer.addClass('visible opening');
+             var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 600;
+             setTimeout(function(){
+                 modalWindow.addClass('visible');
+             }, delay);
+         });
+         //close modal window
+         modalWindow.on('click', '.modal-close', function(event){
+             event.preventDefault();
+             transitionLayer.addClass('closing');
+             modalWindow.removeClass('visible');
+             transitionBackground.one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
+                 transitionLayer.removeClass('closing opening visible');
+                 transitionBackground.off('webkitAnimationEnd oanimationend msAnimationEnd animationend');
+             });
+         });
+         function setLayerDimensions() {
+             var windowWidth = $(window).width(),
+                 windowHeight = $(window).height(),
+                 layerHeight, layerWidth;
+             if( windowWidth/windowHeight > frameProportion ) {
+                 layerWidth = windowWidth;
+                 layerHeight = layerWidth/frameProportion;
+             } else {
+                 layerHeight = windowHeight*1.2;
+                 layerWidth = layerHeight*frameProportion;
+             }
+             transitionBackground.css({
+                 'width': layerWidth*frames+'px',
+                 'height': layerHeight+'px',
+             });
+             resize = false;
+         }
+     }
+     smokeeffect()
+      
+         
+     /*--------------------------------------------------
+      Hero Section Height
+     ---------------------------------------------------*/	
+          
+      
+          
+     }); // document load end 
+     </script>
+         </div> 
+         
+         
+   
+    
+
+
+
     </body>
 
 </html>
