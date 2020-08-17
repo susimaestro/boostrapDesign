@@ -27,6 +27,9 @@ section{
 .nosheadsection{
     padding:0;
 }
+.masthead-brand{
+    font-size:20px;
+}
 
 .btncase{
     border:solid 1px black;
