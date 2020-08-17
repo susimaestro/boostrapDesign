@@ -16,6 +16,15 @@ body {
 li {
     list-style: none;
 }
+
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+    text-decoration:none;
+}
  
  
 /*------------------------ 2 Home ------------------------*/
