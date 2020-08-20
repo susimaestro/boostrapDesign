@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+   
+    font-family: 'Lato';
+    font-size: 14px;
+    color: white;
+    display:flex;
+    background:#111;
+  
+  }
+
+  .swiper-container{
+    width: 100%;
+   
+    padding-bottom: 200px;
+  }
+
+  .swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background:#000;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent,#0006);
+
+  }
+  section{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    padding:100px;
+
+}
+
+h1{
+    opacity:0.8;
+}
+section video{
+   
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0.5;
+    object-fit:cover;
+    pointer-events:none;
+    overflow:hidden;
+
+
+}
+
+.container .swipe{
+    padding-top:200px;
+}
+
+
+
+
+.sa{
+   
+    font-size:40px;
+    padding:10px;
+    color:black;
+}
+
+
+
+header{
+    width:100px;
+    background-color:red;
+    height:100px;
+    
+    
+}
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+      
+        <title> Susanne Aubert - Composer</title>
+        <!-- FONT-->
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+      <!-- SWIPER CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+        <!-- BOOSTRAP-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+       <!-- MY CSS--> 
+        <link rel="stylesheet" href="mstyle.css">
+
+        
+    </head>
+    <body>
+       <header>
+           
+           
+
+       </header>
+       
+            
+ 
+
+
+             <!-- Swiper -->
+             <div class="container svipe">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                <div class="container swipe">
+                <div class="row">
+                    <div class="col-sm-12">
+                       <div class="swiper-container">
+                           <div class="swiper-wrapper">
+                               <div class="swiper-slide"><img src="inourskin.gif"></div>
+                               <div class="swiper-slide"><img src="matm.gif"></div>
+                               <div class="swiper-slide"><img src="carm2.gif"></div>
+                               <div class="swiper-slide"><img src="fight.gif"></div>
+                               <div class="swiper-slide"><img src="reaper.gif"></div>
+                               <div class="swiper-slide"><img src="atoca.gif"></div>
+                               <div class="swiper-slide"><img src="playit.gif"></div>
+                               <div class="swiper-slide"><img src="carme1.gif"></div>
+                              
+                           </div>
+   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+ 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Swiper JS -->
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+    loop:true,
+    autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+    });
+</script>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+<script type="text/javascript">
+     $(document).on('mouseover','.container .column', function(){ 
+         $(this).addClass('active') .siblings().removeClass('active')
+     })
+
+     let video = document.querySelector('video');
+     window.addEventListener('scroll', function(){
+         let value = 1 + window.scrollY/-600;
+         video.style.opacity = value;
+     })
+     </script>
+
+
+        
+    </body>
+</html>

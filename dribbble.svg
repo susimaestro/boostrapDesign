@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113" height="119" viewBox="0 0 113 119">
+  <defs>
+    <clipPath id="clip-Artboard_19">
+      <rect width="113" height="119"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_19" data-name="Artboard – 19" clip-path="url(#clip-Artboard_19)">
+    <g id="Group_63" data-name="Group 63" transform="translate(-28 -614)">
+      <path id="Icon_awesome-medium-m" data-name="Icon awesome-medium-m" d="M5.739,10.977a1.562,1.562,0,0,0-.5-1.307L1.5,5.17V4.5H13.1l8.967,19.664L29.952,4.5h11.06v.67L37.819,8.231a.932.932,0,0,0-.356.893v22.5a.932.932,0,0,0,.356.893l3.119,3.061v.67H25.245v-.67l3.235-3.135c.314-.314.314-.414.314-.893V13.368L19.8,36.192H18.586L8.129,13.368v15.3a2.084,2.084,0,0,0,.579,1.754l4.2,5.1v.67H1v-.662l4.2-5.1a2.015,2.015,0,0,0,.538-1.754Z" transform="translate(61.054 656.72)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
