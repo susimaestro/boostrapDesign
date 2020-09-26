@@ -296,13 +296,12 @@ h2{
     top: 50%;
     transform:translateY(-50%);
     width:100%;
-    background:rgb(0,0,0,-1);
+    background:rgb(0, 0, 0);
     text-align:center;
     margin:0;
     padding:0;
-    color:rgba(255,255,255,.2);
-    font-size:13em;
-  
+    color:rgba(255, 255, 255, 0.836);
+    font-size:12em;
     opacity:1;
     
 }
@@ -312,7 +311,7 @@ h2{
     top:50%;
     transform: translateY(-50%);
     box-sizing: border-box;
-    padding:40px;
+    padding:50px;
     background:black;
     text-align:center;
     transition:0.5s;
@@ -346,7 +345,7 @@ h2{
 }
 
 .container .column.active .bg.bg1{
-    background: url(survey.gif);
+    background: url(surveyhey.gif);
     background-size:cover;
    /* background-attachment:;
     background-position:center;*/
@@ -354,14 +353,14 @@ h2{
 }
 
 .container .column.active .bg.bg2{
-    background: url(hjemmeside.gif);
+    background: url(userp.gif);
     background-size:cover;
      /*background-attachment: fixed;
     background-position:center;*/
     transition:0.5s;
 }
 .container .column.active .bg.bg3{
-    background: url(uxux.png);
+    background: url(8.png);
     background-size:cover;
     /*background-attachment: fixed;
     background-position:center;*/

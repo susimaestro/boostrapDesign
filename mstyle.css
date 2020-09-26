@@ -76,10 +76,27 @@ section video{
 
 
 header{
-    width:100px;
+    width:40px;
     background-color:red;
     height:100px;
+    transition: 1s ease-in-out;
     
     
 }
 
+header p{
+  
+    color:#111111;
+    
+}
+
+header:hover{
+    width:500px;
+    height:900px;
+}
+
+.sound{
+width:60px;
+padding:10px;
+
+}
